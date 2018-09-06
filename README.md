@@ -1,0 +1,2 @@
+# CodingKata
+Everyday morning Kata 
