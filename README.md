@@ -1,6 +1,6 @@
 # CodingKata
-Everyday morning Kata 
-3.09.2018
+Everyday morning Kata \n
+3.09.2018 \n
 Simple class for calculation with test
 4.09.2018
 Simple stack on array
@@ -18,3 +18,4 @@ day off
 Hash table
 11.09.2018
 Fibonachi with tests
+
