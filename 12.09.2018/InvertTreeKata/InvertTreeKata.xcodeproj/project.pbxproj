@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC60DF092148BC56006844DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60DF082148BC56006844DE /* AppDelegate.swift */; };
+		AC60DF0B2148BC56006844DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60DF0A2148BC56006844DE /* ViewController.swift */; };
+		AC60DF0E2148BC56006844DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC60DF0C2148BC56006844DE /* Main.storyboard */; };
+		AC60DF102148BC59006844DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC60DF0F2148BC59006844DE /* Assets.xcassets */; };
+		AC60DF132148BC59006844DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC60DF112148BC59006844DE /* LaunchScreen.storyboard */; };
+		AC60DF1E2148BC5A006844DE /* InvertTreeKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60DF1D2148BC5A006844DE /* InvertTreeKataTests.swift */; };
+		AC60DF2C2148BCBC006844DE /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60DF292148BCBC006844DE /* TreeNode.swift */; };
+		AC60DF2D2148BCBC006844DE /* NodeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60DF2A2148BCBC006844DE /* NodeProtocol.swift */; };
+		AC60DF2E2148BCBC006844DE /* TreeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60DF2B2148BCBC006844DE /* TreeCollection.swift */; };
+		AC60DF302148BDE6006844DE /* TreeLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60DF2F2148BDE6006844DE /* TreeLogger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC60DF1A2148BC5A006844DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC60DEFD2148BC56006844DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC60DF042148BC56006844DE;
+			remoteInfo = InvertTreeKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC60DF052148BC56006844DE /* InvertTreeKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvertTreeKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC60DF082148BC56006844DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC60DF0A2148BC56006844DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC60DF0D2148BC56006844DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC60DF0F2148BC59006844DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC60DF122148BC59006844DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC60DF142148BC59006844DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC60DF192148BC5A006844DE /* InvertTreeKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvertTreeKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC60DF1D2148BC5A006844DE /* InvertTreeKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTreeKataTests.swift; sourceTree = "<group>"; };
+		AC60DF1F2148BC5A006844DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC60DF292148BCBC006844DE /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeNode.swift; path = InvertTreeKata/TreeNode.swift; sourceTree = SOURCE_ROOT; };
+		AC60DF2A2148BCBC006844DE /* NodeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NodeProtocol.swift; path = InvertTreeKata/NodeProtocol.swift; sourceTree = SOURCE_ROOT; };
+		AC60DF2B2148BCBC006844DE /* TreeCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeCollection.swift; path = InvertTreeKata/TreeCollection.swift; sourceTree = SOURCE_ROOT; };
+		AC60DF2F2148BDE6006844DE /* TreeLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeLogger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC60DF022148BC56006844DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC60DF162148BC5A006844DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC60DEFC2148BC56006844DE = {
+			isa = PBXGroup;
+			children = (
+				AC60DF072148BC56006844DE /* InvertTreeKata */,
+				AC60DF1C2148BC5A006844DE /* InvertTreeKataTests */,
+				AC60DF062148BC56006844DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC60DF062148BC56006844DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC60DF052148BC56006844DE /* InvertTreeKata.app */,
+				AC60DF192148BC5A006844DE /* InvertTreeKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC60DF072148BC56006844DE /* InvertTreeKata */ = {
+			isa = PBXGroup;
+			children = (
+				AC60DF282148BCA7006844DE /* Tree */,
+				AC60DF082148BC56006844DE /* AppDelegate.swift */,
+				AC60DF0A2148BC56006844DE /* ViewController.swift */,
+				AC60DF0C2148BC56006844DE /* Main.storyboard */,
+				AC60DF0F2148BC59006844DE /* Assets.xcassets */,
+				AC60DF112148BC59006844DE /* LaunchScreen.storyboard */,
+				AC60DF142148BC59006844DE /* Info.plist */,
+			);
+			path = InvertTreeKata;
+			sourceTree = "<group>";
+		};
+		AC60DF1C2148BC5A006844DE /* InvertTreeKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC60DF1D2148BC5A006844DE /* InvertTreeKataTests.swift */,
+				AC60DF1F2148BC5A006844DE /* Info.plist */,
+			);
+			path = InvertTreeKataTests;
+			sourceTree = "<group>";
+		};
+		AC60DF282148BCA7006844DE /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				AC60DF2A2148BCBC006844DE /* NodeProtocol.swift */,
+				AC60DF2B2148BCBC006844DE /* TreeCollection.swift */,
+				AC60DF292148BCBC006844DE /* TreeNode.swift */,
+				AC60DF2F2148BDE6006844DE /* TreeLogger.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC60DF042148BC56006844DE /* InvertTreeKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC60DF222148BC5A006844DE /* Build configuration list for PBXNativeTarget "InvertTreeKata" */;
+			buildPhases = (
+				AC60DF012148BC56006844DE /* Sources */,
+				AC60DF022148BC56006844DE /* Frameworks */,
+				AC60DF032148BC56006844DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InvertTreeKata;
+			productName = InvertTreeKata;
+			productReference = AC60DF052148BC56006844DE /* InvertTreeKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC60DF182148BC5A006844DE /* InvertTreeKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC60DF252148BC5A006844DE /* Build configuration list for PBXNativeTarget "InvertTreeKataTests" */;
+			buildPhases = (
+				AC60DF152148BC5A006844DE /* Sources */,
+				AC60DF162148BC5A006844DE /* Frameworks */,
+				AC60DF172148BC5A006844DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC60DF1B2148BC5A006844DE /* PBXTargetDependency */,
+			);
+			name = InvertTreeKataTests;
+			productName = InvertTreeKataTests;
+			productReference = AC60DF192148BC5A006844DE /* InvertTreeKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC60DEFD2148BC56006844DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					AC60DF042148BC56006844DE = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					AC60DF182148BC5A006844DE = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = AC60DF042148BC56006844DE;
+					};
+				};
+			};
+			buildConfigurationList = AC60DF002148BC56006844DE /* Build configuration list for PBXProject "InvertTreeKata" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC60DEFC2148BC56006844DE;
+			productRefGroup = AC60DF062148BC56006844DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC60DF042148BC56006844DE /* InvertTreeKata */,
+				AC60DF182148BC5A006844DE /* InvertTreeKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC60DF032148BC56006844DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC60DF132148BC59006844DE /* LaunchScreen.storyboard in Resources */,
+				AC60DF102148BC59006844DE /* Assets.xcassets in Resources */,
+				AC60DF0E2148BC56006844DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC60DF172148BC5A006844DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC60DF012148BC56006844DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC60DF0B2148BC56006844DE /* ViewController.swift in Sources */,
+				AC60DF2D2148BCBC006844DE /* NodeProtocol.swift in Sources */,
+				AC60DF2E2148BCBC006844DE /* TreeCollection.swift in Sources */,
+				AC60DF092148BC56006844DE /* AppDelegate.swift in Sources */,
+				AC60DF2C2148BCBC006844DE /* TreeNode.swift in Sources */,
+				AC60DF302148BDE6006844DE /* TreeLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC60DF152148BC5A006844DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC60DF1E2148BC5A006844DE /* InvertTreeKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC60DF1B2148BC5A006844DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC60DF042148BC56006844DE /* InvertTreeKata */;
+			targetProxy = AC60DF1A2148BC5A006844DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC60DF0C2148BC56006844DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC60DF0D2148BC56006844DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC60DF112148BC59006844DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC60DF122148BC59006844DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC60DF202148BC5A006844DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC60DF212148BC5A006844DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC60DF232148BC5A006844DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = InvertTreeKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.InvertTreeKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC60DF242148BC5A006844DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = InvertTreeKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.InvertTreeKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC60DF262148BC5A006844DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = InvertTreeKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.InvertTreeKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvertTreeKata.app/InvertTreeKata";
+			};
+			name = Debug;
+		};
+		AC60DF272148BC5A006844DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = InvertTreeKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.InvertTreeKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvertTreeKata.app/InvertTreeKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC60DF002148BC56006844DE /* Build configuration list for PBXProject "InvertTreeKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC60DF202148BC5A006844DE /* Debug */,
+				AC60DF212148BC5A006844DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC60DF222148BC5A006844DE /* Build configuration list for PBXNativeTarget "InvertTreeKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC60DF232148BC5A006844DE /* Debug */,
+				AC60DF242148BC5A006844DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC60DF252148BC5A006844DE /* Build configuration list for PBXNativeTarget "InvertTreeKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC60DF262148BC5A006844DE /* Debug */,
+				AC60DF272148BC5A006844DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC60DEFD2148BC56006844DE /* Project object */;
+}
