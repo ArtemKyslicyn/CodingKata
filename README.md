@@ -22,4 +22,6 @@ Fibonachi with tests <br /><br />
 revert tree with tests <br /><br />
 13.09.2018 <br />
 clasic queue <br /><br />
+14.09.2018 <br />
+linear searh <br /><br />
 
