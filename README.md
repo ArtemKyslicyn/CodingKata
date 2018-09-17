@@ -24,4 +24,10 @@ revert tree with tests <br /><br />
 clasic queue <br /><br />
 14.09.2018 <br />
 linear searh <br /><br />
+15.08.2018  <br />
+Buble sort<br /> <br />
+16.08.2018  <br />
+Day off<br /><br />
+17.09.2018 <br />
+Palindrom <br /><br />
 
