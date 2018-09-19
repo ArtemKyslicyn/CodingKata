@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC88ED6B2151FA74000E75DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC88ED6A2151FA74000E75DC /* AppDelegate.swift */; };
+		AC88ED6D2151FA76000E75DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC88ED6C2151FA76000E75DC /* Assets.xcassets */; };
+		AC88ED702151FA76000E75DC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC88ED6E2151FA76000E75DC /* MainMenu.xib */; };
+		AC88ED7C2151FA77000E75DC /* GreatComonDivisorKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC88ED7B2151FA77000E75DC /* GreatComonDivisorKataTests.swift */; };
+		AC88ED872151FAC1000E75DC /* GreatCommonDivisorExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC88ED862151FAC1000E75DC /* GreatCommonDivisorExtenstion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC88ED782151FA77000E75DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC88ED5F2151FA74000E75DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC88ED662151FA74000E75DC;
+			remoteInfo = GreatComonDivisorKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC88ED672151FA74000E75DC /* GreatComonDivisorKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreatComonDivisorKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC88ED6A2151FA74000E75DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC88ED6C2151FA76000E75DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC88ED6F2151FA76000E75DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC88ED712151FA77000E75DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC88ED722151FA77000E75DC /* GreatComonDivisorKata.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GreatComonDivisorKata.entitlements; sourceTree = "<group>"; };
+		AC88ED772151FA77000E75DC /* GreatComonDivisorKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreatComonDivisorKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC88ED7B2151FA77000E75DC /* GreatComonDivisorKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatComonDivisorKataTests.swift; sourceTree = "<group>"; };
+		AC88ED7D2151FA77000E75DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC88ED862151FAC1000E75DC /* GreatCommonDivisorExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatCommonDivisorExtenstion.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC88ED642151FA74000E75DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC88ED742151FA77000E75DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC88ED5E2151FA74000E75DC = {
+			isa = PBXGroup;
+			children = (
+				AC88ED692151FA74000E75DC /* GreatComonDivisorKata */,
+				AC88ED7A2151FA77000E75DC /* GreatComonDivisorKataTests */,
+				AC88ED682151FA74000E75DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC88ED682151FA74000E75DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC88ED672151FA74000E75DC /* GreatComonDivisorKata.app */,
+				AC88ED772151FA77000E75DC /* GreatComonDivisorKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC88ED692151FA74000E75DC /* GreatComonDivisorKata */ = {
+			isa = PBXGroup;
+			children = (
+				AC88ED6A2151FA74000E75DC /* AppDelegate.swift */,
+				AC88ED6C2151FA76000E75DC /* Assets.xcassets */,
+				AC88ED6E2151FA76000E75DC /* MainMenu.xib */,
+				AC88ED712151FA77000E75DC /* Info.plist */,
+				AC88ED722151FA77000E75DC /* GreatComonDivisorKata.entitlements */,
+				AC88ED862151FAC1000E75DC /* GreatCommonDivisorExtenstion.swift */,
+			);
+			path = GreatComonDivisorKata;
+			sourceTree = "<group>";
+		};
+		AC88ED7A2151FA77000E75DC /* GreatComonDivisorKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC88ED7B2151FA77000E75DC /* GreatComonDivisorKataTests.swift */,
+				AC88ED7D2151FA77000E75DC /* Info.plist */,
+			);
+			path = GreatComonDivisorKataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC88ED662151FA74000E75DC /* GreatComonDivisorKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC88ED802151FA77000E75DC /* Build configuration list for PBXNativeTarget "GreatComonDivisorKata" */;
+			buildPhases = (
+				AC88ED632151FA74000E75DC /* Sources */,
+				AC88ED642151FA74000E75DC /* Frameworks */,
+				AC88ED652151FA74000E75DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreatComonDivisorKata;
+			productName = GreatComonDivisorKata;
+			productReference = AC88ED672151FA74000E75DC /* GreatComonDivisorKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC88ED762151FA77000E75DC /* GreatComonDivisorKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC88ED832151FA77000E75DC /* Build configuration list for PBXNativeTarget "GreatComonDivisorKataTests" */;
+			buildPhases = (
+				AC88ED732151FA77000E75DC /* Sources */,
+				AC88ED742151FA77000E75DC /* Frameworks */,
+				AC88ED752151FA77000E75DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC88ED792151FA77000E75DC /* PBXTargetDependency */,
+			);
+			name = GreatComonDivisorKataTests;
+			productName = GreatComonDivisorKataTests;
+			productReference = AC88ED772151FA77000E75DC /* GreatComonDivisorKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC88ED5F2151FA74000E75DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					AC88ED662151FA74000E75DC = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					AC88ED762151FA77000E75DC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = AC88ED662151FA74000E75DC;
+					};
+				};
+			};
+			buildConfigurationList = AC88ED622151FA74000E75DC /* Build configuration list for PBXProject "GreatComonDivisorKata" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC88ED5E2151FA74000E75DC;
+			productRefGroup = AC88ED682151FA74000E75DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC88ED662151FA74000E75DC /* GreatComonDivisorKata */,
+				AC88ED762151FA77000E75DC /* GreatComonDivisorKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC88ED652151FA74000E75DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC88ED6D2151FA76000E75DC /* Assets.xcassets in Resources */,
+				AC88ED702151FA76000E75DC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC88ED752151FA77000E75DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC88ED632151FA74000E75DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC88ED872151FAC1000E75DC /* GreatCommonDivisorExtenstion.swift in Sources */,
+				AC88ED6B2151FA74000E75DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC88ED732151FA77000E75DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC88ED7C2151FA77000E75DC /* GreatComonDivisorKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC88ED792151FA77000E75DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC88ED662151FA74000E75DC /* GreatComonDivisorKata */;
+			targetProxy = AC88ED782151FA77000E75DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC88ED6E2151FA76000E75DC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC88ED6F2151FA76000E75DC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC88ED7E2151FA77000E75DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC88ED7F2151FA77000E75DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC88ED812151FA77000E75DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GreatComonDivisorKata/GreatComonDivisorKata.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = GreatComonDivisorKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.GreatComonDivisorKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		AC88ED822151FA77000E75DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GreatComonDivisorKata/GreatComonDivisorKata.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = GreatComonDivisorKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.GreatComonDivisorKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		AC88ED842151FA77000E75DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = GreatComonDivisorKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.GreatComonDivisorKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreatComonDivisorKata.app/Contents/MacOS/GreatComonDivisorKata";
+			};
+			name = Debug;
+		};
+		AC88ED852151FA77000E75DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = GreatComonDivisorKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.GreatComonDivisorKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreatComonDivisorKata.app/Contents/MacOS/GreatComonDivisorKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC88ED622151FA74000E75DC /* Build configuration list for PBXProject "GreatComonDivisorKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC88ED7E2151FA77000E75DC /* Debug */,
+				AC88ED7F2151FA77000E75DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC88ED802151FA77000E75DC /* Build configuration list for PBXNativeTarget "GreatComonDivisorKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC88ED812151FA77000E75DC /* Debug */,
+				AC88ED822151FA77000E75DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC88ED832151FA77000E75DC /* Build configuration list for PBXNativeTarget "GreatComonDivisorKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC88ED842151FA77000E75DC /* Debug */,
+				AC88ED852151FA77000E75DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC88ED5F2151FA74000E75DC /* Project object */;
+}
