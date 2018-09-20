@@ -30,4 +30,9 @@ Buble sort<br /> <br />
 Day off<br /><br />
 17.09.2018 <br />
 Palindrom <br /><br />
+18.09.2018 <br />
+Factorial <br /><br />
+19.09.2018 <br />
+Great Common Divisor <br /><br />
+
 
