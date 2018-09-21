@@ -7,3 +7,19 @@
 //
 
 import Foundation
+
+extension Array where Element: Numeric
+{
+	public func sumArray() -> Int
+	{
+		var sumElements = 0
+		
+		for i in 0...self.count-1{
+			if let sumNum = self[i] as? Int{
+				sumElements += sumNum
+			}
+		}
+		
+		return sumElements
+	}
+}
