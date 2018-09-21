@@ -1,5 +1,5 @@
 # CodingKata
-Everyday morning Kata <br /><br />
+Everyday morning Kata 20 minuts for solving simple algorithm. <br /><br />
 3.09.2018 <br />
 Simple class for calculation with test <br /><br />
 4.09.2018 <br />
@@ -34,5 +34,7 @@ Palindrom <br /><br />
 Factorial <br /><br />
 19.09.2018 <br />
 Great Common Divisor <br /><br />
+20.09.2018 <br />
+Index of maximum Element <br /><br />
 
 
