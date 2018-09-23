@@ -36,5 +36,7 @@ Factorial <br /><br />
 Great Common Divisor <br /><br />
 20.09.2018 <br />
 Index of maximum Element <br /><br />
+21.09.2018 <br />
+Longest string <br /><br />
 
 
