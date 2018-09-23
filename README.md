@@ -40,5 +40,5 @@ Index of maximum Element <br /><br />
 Sum elemets array <br /><br />
 22.09.2018 <br />
 Longest string <br /><br />
-
+23.09.2018 <br />
 
