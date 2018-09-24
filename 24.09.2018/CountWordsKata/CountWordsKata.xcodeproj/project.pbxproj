@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACD53BF3215891CF0051C703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD53BF2215891CF0051C703 /* AppDelegate.swift */; };
+		ACD53BF5215891D20051C703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD53BF4215891D20051C703 /* Assets.xcassets */; };
+		ACD53BF8215891D20051C703 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACD53BF6215891D20051C703 /* MainMenu.xib */; };
+		ACD53C04215891D20051C703 /* CountWordsKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD53C03215891D20051C703 /* CountWordsKataTests.swift */; };
+		ACD53C0F215891F60051C703 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD53C0E215891F60051C703 /* StringExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACD53C00215891D20051C703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD53BE7215891CF0051C703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD53BEE215891CF0051C703;
+			remoteInfo = CountWordsKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACD53BEF215891CF0051C703 /* CountWordsKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountWordsKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD53BF2215891CF0051C703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACD53BF4215891D20051C703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACD53BF7215891D20051C703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ACD53BF9215891D20051C703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD53BFA215891D20051C703 /* CountWordsKata.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CountWordsKata.entitlements; sourceTree = "<group>"; };
+		ACD53BFF215891D20051C703 /* CountWordsKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountWordsKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD53C03215891D20051C703 /* CountWordsKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountWordsKataTests.swift; sourceTree = "<group>"; };
+		ACD53C05215891D20051C703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD53C0E215891F60051C703 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACD53BEC215891CF0051C703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD53BFC215891D20051C703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACD53BE6215891CF0051C703 = {
+			isa = PBXGroup;
+			children = (
+				ACD53BF1215891CF0051C703 /* CountWordsKata */,
+				ACD53C02215891D20051C703 /* CountWordsKataTests */,
+				ACD53BF0215891CF0051C703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACD53BF0215891CF0051C703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD53BEF215891CF0051C703 /* CountWordsKata.app */,
+				ACD53BFF215891D20051C703 /* CountWordsKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD53BF1215891CF0051C703 /* CountWordsKata */ = {
+			isa = PBXGroup;
+			children = (
+				ACD53BF2215891CF0051C703 /* AppDelegate.swift */,
+				ACD53BF4215891D20051C703 /* Assets.xcassets */,
+				ACD53BF6215891D20051C703 /* MainMenu.xib */,
+				ACD53BF9215891D20051C703 /* Info.plist */,
+				ACD53BFA215891D20051C703 /* CountWordsKata.entitlements */,
+				ACD53C0E215891F60051C703 /* StringExtension.swift */,
+			);
+			path = CountWordsKata;
+			sourceTree = "<group>";
+		};
+		ACD53C02215891D20051C703 /* CountWordsKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD53C03215891D20051C703 /* CountWordsKataTests.swift */,
+				ACD53C05215891D20051C703 /* Info.plist */,
+			);
+			path = CountWordsKataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACD53BEE215891CF0051C703 /* CountWordsKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD53C08215891D20051C703 /* Build configuration list for PBXNativeTarget "CountWordsKata" */;
+			buildPhases = (
+				ACD53BEB215891CF0051C703 /* Sources */,
+				ACD53BEC215891CF0051C703 /* Frameworks */,
+				ACD53BED215891CF0051C703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountWordsKata;
+			productName = CountWordsKata;
+			productReference = ACD53BEF215891CF0051C703 /* CountWordsKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACD53BFE215891D20051C703 /* CountWordsKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD53C0B215891D20051C703 /* Build configuration list for PBXNativeTarget "CountWordsKataTests" */;
+			buildPhases = (
+				ACD53BFB215891D20051C703 /* Sources */,
+				ACD53BFC215891D20051C703 /* Frameworks */,
+				ACD53BFD215891D20051C703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD53C01215891D20051C703 /* PBXTargetDependency */,
+			);
+			name = CountWordsKataTests;
+			productName = CountWordsKataTests;
+			productReference = ACD53BFF215891D20051C703 /* CountWordsKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACD53BE7215891CF0051C703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					ACD53BEE215891CF0051C703 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					ACD53BFE215891D20051C703 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = ACD53BEE215891CF0051C703;
+					};
+				};
+			};
+			buildConfigurationList = ACD53BEA215891CF0051C703 /* Build configuration list for PBXProject "CountWordsKata" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACD53BE6215891CF0051C703;
+			productRefGroup = ACD53BF0215891CF0051C703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD53BEE215891CF0051C703 /* CountWordsKata */,
+				ACD53BFE215891D20051C703 /* CountWordsKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACD53BED215891CF0051C703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD53BF5215891D20051C703 /* Assets.xcassets in Resources */,
+				ACD53BF8215891D20051C703 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD53BFD215891D20051C703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACD53BEB215891CF0051C703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD53BF3215891CF0051C703 /* AppDelegate.swift in Sources */,
+				ACD53C0F215891F60051C703 /* StringExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD53BFB215891D20051C703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD53C04215891D20051C703 /* CountWordsKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACD53C01215891D20051C703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD53BEE215891CF0051C703 /* CountWordsKata */;
+			targetProxy = ACD53C00215891D20051C703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACD53BF6215891D20051C703 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD53BF7215891D20051C703 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACD53C06215891D20051C703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACD53C07215891D20051C703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ACD53C09215891D20051C703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CountWordsKata/CountWordsKata.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = CountWordsKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.CountWordsKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		ACD53C0A215891D20051C703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CountWordsKata/CountWordsKata.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = CountWordsKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.CountWordsKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		ACD53C0C215891D20051C703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = CountWordsKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.CountWordsKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountWordsKata.app/Contents/MacOS/CountWordsKata";
+			};
+			name = Debug;
+		};
+		ACD53C0D215891D20051C703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = CountWordsKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.CountWordsKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountWordsKata.app/Contents/MacOS/CountWordsKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACD53BEA215891CF0051C703 /* Build configuration list for PBXProject "CountWordsKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD53C06215891D20051C703 /* Debug */,
+				ACD53C07215891D20051C703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD53C08215891D20051C703 /* Build configuration list for PBXNativeTarget "CountWordsKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD53C09215891D20051C703 /* Debug */,
+				ACD53C0A215891D20051C703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD53C0B215891D20051C703 /* Build configuration list for PBXNativeTarget "CountWordsKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD53C0C215891D20051C703 /* Debug */,
+				ACD53C0D215891D20051C703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACD53BE7215891CF0051C703 /* Project object */;
+}
