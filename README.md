@@ -41,4 +41,6 @@ Sum elemets array <br /><br />
 22.09.2018 <br />
 Longest string <br /><br />
 23.09.2018 <br />
-
+day off
+24.09.2018 <br />
+count of words in string
