@@ -41,8 +41,8 @@ Sum elemets array <br /><br />
 22.09.2018 <br />
 Longest string <br /><br />
 23.09.2018 <br />
-day off <br />
+day off <br /><br />
 24.09.2018 <br />
-count of words in string<br />
+count of words in string<br /><br />
 25.09.2018 <br />
-shortests string<br />
+shortests string<br /><br />
