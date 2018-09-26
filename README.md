@@ -46,3 +46,5 @@ day off <br /><br />
 count of words in string<br /><br />
 25.09.2018 <br />
 shortests string<br /><br />
+25.09.2018 <br />
+Least common multiple <br /><br />
