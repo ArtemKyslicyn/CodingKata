@@ -48,3 +48,5 @@ count of words in string<br /><br />
 shortests string<br /><br />
 26.09.2018 <br />
 Least common multiple <br /><br />
+26.09.2018 <br />
+Sum digits of number <br /><br />
