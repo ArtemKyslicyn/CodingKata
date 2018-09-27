@@ -11,6 +11,7 @@
 		ACB3F4E5215C88A400F0BA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB3F4E4215C88A400F0BA39 /* Assets.xcassets */; };
 		ACB3F4E8215C88A400F0BA39 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB3F4E6215C88A400F0BA39 /* MainMenu.xib */; };
 		ACB3F4F4215C88A400F0BA39 /* SumDigitsKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3F4F3215C88A400F0BA39 /* SumDigitsKataTests.swift */; };
+		ACB3F4FF215C892000F0BA39 /* NumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3F4FE215C892000F0BA39 /* NumberExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		ACB3F4EF215C88A400F0BA39 /* SumDigitsKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumDigitsKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB3F4F3215C88A400F0BA39 /* SumDigitsKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumDigitsKataTests.swift; sourceTree = "<group>"; };
 		ACB3F4F5215C88A400F0BA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB3F4FE215C892000F0BA39 /* NumberExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		ACB3F4E1215C88A200F0BA39 /* SumDigitsKata */ = {
 			isa = PBXGroup;
 			children = (
+				ACB3F4FE215C892000F0BA39 /* NumberExtension.swift */,
 				ACB3F4E2215C88A200F0BA39 /* AppDelegate.swift */,
 				ACB3F4E4215C88A400F0BA39 /* Assets.xcassets */,
 				ACB3F4E6215C88A400F0BA39 /* MainMenu.xib */,
@@ -192,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB3F4FF215C892000F0BA39 /* NumberExtension.swift in Sources */,
 				ACB3F4E3215C88A200F0BA39 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
