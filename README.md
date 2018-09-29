@@ -50,3 +50,9 @@ shortests string<br /><br />
 Least common multiple <br /><br />
 27.09.2018 <br />
 Sum digits of number <br /><br />
+28.09.2018 <br />
+reverce number <br /><br />
+29.09.2018 <br />
+sqrt <br /><br />
+30.09.2018 <br />
+day of <br /><br />
