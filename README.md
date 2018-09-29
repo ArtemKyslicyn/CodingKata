@@ -55,4 +55,4 @@ reverce number <br /><br />
 29.09.2018 <br />
 sqrt <br /><br />
 30.09.2018 <br />
-day of <br /><br />
+day off <br /><br />
