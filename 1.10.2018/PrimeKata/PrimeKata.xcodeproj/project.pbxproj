@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACAD567F2161D17E00A5ABD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD567E2161D17E00A5ABD1 /* AppDelegate.swift */; };
+		ACAD56812161D18100A5ABD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAD56802161D18100A5ABD1 /* Assets.xcassets */; };
+		ACAD56842161D18100A5ABD1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACAD56822161D18100A5ABD1 /* MainMenu.xib */; };
+		ACAD56902161D18100A5ABD1 /* PrimeKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD568F2161D18100A5ABD1 /* PrimeKataTests.swift */; };
+		ACAD569B2161D19E00A5ABD1 /* NumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD569A2161D19E00A5ABD1 /* NumberExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACAD568C2161D18100A5ABD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAD56732161D17E00A5ABD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAD567A2161D17E00A5ABD1;
+			remoteInfo = PrimeKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACAD567B2161D17E00A5ABD1 /* PrimeKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAD567E2161D17E00A5ABD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACAD56802161D18100A5ABD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACAD56832161D18100A5ABD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ACAD56852161D18100A5ABD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAD56862161D18100A5ABD1 /* PrimeKata.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PrimeKata.entitlements; sourceTree = "<group>"; };
+		ACAD568B2161D18100A5ABD1 /* PrimeKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAD568F2161D18100A5ABD1 /* PrimeKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeKataTests.swift; sourceTree = "<group>"; };
+		ACAD56912161D18100A5ABD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAD569A2161D19E00A5ABD1 /* NumberExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAD56782161D17E00A5ABD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAD56882161D18100A5ABD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACAD56722161D17E00A5ABD1 = {
+			isa = PBXGroup;
+			children = (
+				ACAD567D2161D17E00A5ABD1 /* PrimeKata */,
+				ACAD568E2161D18100A5ABD1 /* PrimeKataTests */,
+				ACAD567C2161D17E00A5ABD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAD567C2161D17E00A5ABD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD567B2161D17E00A5ABD1 /* PrimeKata.app */,
+				ACAD568B2161D18100A5ABD1 /* PrimeKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAD567D2161D17E00A5ABD1 /* PrimeKata */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD569A2161D19E00A5ABD1 /* NumberExtension.swift */,
+				ACAD567E2161D17E00A5ABD1 /* AppDelegate.swift */,
+				ACAD56802161D18100A5ABD1 /* Assets.xcassets */,
+				ACAD56822161D18100A5ABD1 /* MainMenu.xib */,
+				ACAD56852161D18100A5ABD1 /* Info.plist */,
+				ACAD56862161D18100A5ABD1 /* PrimeKata.entitlements */,
+			);
+			path = PrimeKata;
+			sourceTree = "<group>";
+		};
+		ACAD568E2161D18100A5ABD1 /* PrimeKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD568F2161D18100A5ABD1 /* PrimeKataTests.swift */,
+				ACAD56912161D18100A5ABD1 /* Info.plist */,
+			);
+			path = PrimeKataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAD567A2161D17E00A5ABD1 /* PrimeKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAD56942161D18100A5ABD1 /* Build configuration list for PBXNativeTarget "PrimeKata" */;
+			buildPhases = (
+				ACAD56772161D17E00A5ABD1 /* Sources */,
+				ACAD56782161D17E00A5ABD1 /* Frameworks */,
+				ACAD56792161D17E00A5ABD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeKata;
+			productName = PrimeKata;
+			productReference = ACAD567B2161D17E00A5ABD1 /* PrimeKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACAD568A2161D18100A5ABD1 /* PrimeKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAD56972161D18100A5ABD1 /* Build configuration list for PBXNativeTarget "PrimeKataTests" */;
+			buildPhases = (
+				ACAD56872161D18100A5ABD1 /* Sources */,
+				ACAD56882161D18100A5ABD1 /* Frameworks */,
+				ACAD56892161D18100A5ABD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAD568D2161D18100A5ABD1 /* PBXTargetDependency */,
+			);
+			name = PrimeKataTests;
+			productName = PrimeKataTests;
+			productReference = ACAD568B2161D18100A5ABD1 /* PrimeKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAD56732161D17E00A5ABD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					ACAD567A2161D17E00A5ABD1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					ACAD568A2161D18100A5ABD1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ACAD567A2161D17E00A5ABD1;
+					};
+				};
+			};
+			buildConfigurationList = ACAD56762161D17E00A5ABD1 /* Build configuration list for PBXProject "PrimeKata" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACAD56722161D17E00A5ABD1;
+			productRefGroup = ACAD567C2161D17E00A5ABD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAD567A2161D17E00A5ABD1 /* PrimeKata */,
+				ACAD568A2161D18100A5ABD1 /* PrimeKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACAD56792161D17E00A5ABD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAD56812161D18100A5ABD1 /* Assets.xcassets in Resources */,
+				ACAD56842161D18100A5ABD1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAD56892161D18100A5ABD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAD56772161D17E00A5ABD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAD569B2161D19E00A5ABD1 /* NumberExtension.swift in Sources */,
+				ACAD567F2161D17E00A5ABD1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAD56872161D18100A5ABD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAD56902161D18100A5ABD1 /* PrimeKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACAD568D2161D18100A5ABD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAD567A2161D17E00A5ABD1 /* PrimeKata */;
+			targetProxy = ACAD568C2161D18100A5ABD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACAD56822161D18100A5ABD1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAD56832161D18100A5ABD1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACAD56922161D18100A5ABD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACAD56932161D18100A5ABD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ACAD56952161D18100A5ABD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PrimeKata/PrimeKata.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = PrimeKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.PrimeKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		ACAD56962161D18100A5ABD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PrimeKata/PrimeKata.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = PrimeKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.PrimeKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		ACAD56982161D18100A5ABD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = PrimeKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.PrimeKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeKata.app/Contents/MacOS/PrimeKata";
+			};
+			name = Debug;
+		};
+		ACAD56992161D18100A5ABD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = PrimeKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.PrimeKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeKata.app/Contents/MacOS/PrimeKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAD56762161D17E00A5ABD1 /* Build configuration list for PBXProject "PrimeKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAD56922161D18100A5ABD1 /* Debug */,
+				ACAD56932161D18100A5ABD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAD56942161D18100A5ABD1 /* Build configuration list for PBXNativeTarget "PrimeKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAD56952161D18100A5ABD1 /* Debug */,
+				ACAD56962161D18100A5ABD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAD56972161D18100A5ABD1 /* Build configuration list for PBXNativeTarget "PrimeKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAD56982161D18100A5ABD1 /* Debug */,
+				ACAD56992161D18100A5ABD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACAD56732161D17E00A5ABD1 /* Project object */;
+}
