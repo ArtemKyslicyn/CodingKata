@@ -56,3 +56,7 @@ reverce number <br /><br />
 sqrt <br /><br />
 30.09.2018 <br />
 day off <br /><br />
+1.10.2018 <br />
+Prime kata <br /><br />
+2.10.2018 <br />
+String occurences weak solution <br /><br />
