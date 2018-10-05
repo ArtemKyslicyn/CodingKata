@@ -60,3 +60,9 @@ day off <br /><br />
 Prime kata <br /><br />
 2.10.2018 <br />
 String occurences weak solution <br /><br />
+3.10.2018 <br />
+first string occurency <br /><br />
+4.10.2018 <br />
+first string occurency <br /><br />
+5.10.2018 <br />
+count occurency objects in array with NSCountSet <br /><br />
