@@ -63,6 +63,6 @@ String occurences weak solution <br /><br />
 3.10.2018 <br />
 first string occurency <br /><br />
 4.10.2018 <br />
-first string occurency <br /><br />
+last string occurency <br /><br />
 5.10.2018 <br />
 count occurency objects in array with NSCountSet <br /><br />
