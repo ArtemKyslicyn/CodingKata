@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC620FE5216B140400769517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC620FE4216B140400769517 /* AppDelegate.swift */; };
+		AC620FE7216B140500769517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC620FE6216B140500769517 /* Assets.xcassets */; };
+		AC620FEA216B140500769517 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC620FE8216B140500769517 /* MainMenu.xib */; };
+		AC620FF6216B140500769517 /* IntresectionArrayKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC620FF5216B140500769517 /* IntresectionArrayKataTests.swift */; };
+		AC621001216B142400769517 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC621000216B142400769517 /* ArrayExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC620FF2216B140500769517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC620FD9216B140400769517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC620FE0216B140400769517;
+			remoteInfo = IntresectionArrayKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC620FE1216B140400769517 /* IntresectionArrayKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntresectionArrayKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC620FE4216B140400769517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC620FE6216B140500769517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC620FE9216B140500769517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC620FEB216B140500769517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC620FEC216B140500769517 /* IntresectionArrayKata.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntresectionArrayKata.entitlements; sourceTree = "<group>"; };
+		AC620FF1216B140500769517 /* IntresectionArrayKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntresectionArrayKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC620FF5216B140500769517 /* IntresectionArrayKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntresectionArrayKataTests.swift; sourceTree = "<group>"; };
+		AC620FF7216B140500769517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC621000216B142400769517 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC620FDE216B140400769517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC620FEE216B140500769517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC620FD8216B140400769517 = {
+			isa = PBXGroup;
+			children = (
+				AC620FE3216B140400769517 /* IntresectionArrayKata */,
+				AC620FF4216B140500769517 /* IntresectionArrayKataTests */,
+				AC620FE2216B140400769517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC620FE2216B140400769517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC620FE1216B140400769517 /* IntresectionArrayKata.app */,
+				AC620FF1216B140500769517 /* IntresectionArrayKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC620FE3216B140400769517 /* IntresectionArrayKata */ = {
+			isa = PBXGroup;
+			children = (
+				AC621000216B142400769517 /* ArrayExtension.swift */,
+				AC620FE4216B140400769517 /* AppDelegate.swift */,
+				AC620FE6216B140500769517 /* Assets.xcassets */,
+				AC620FE8216B140500769517 /* MainMenu.xib */,
+				AC620FEB216B140500769517 /* Info.plist */,
+				AC620FEC216B140500769517 /* IntresectionArrayKata.entitlements */,
+			);
+			path = IntresectionArrayKata;
+			sourceTree = "<group>";
+		};
+		AC620FF4216B140500769517 /* IntresectionArrayKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC620FF5216B140500769517 /* IntresectionArrayKataTests.swift */,
+				AC620FF7216B140500769517 /* Info.plist */,
+			);
+			path = IntresectionArrayKataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC620FE0216B140400769517 /* IntresectionArrayKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC620FFA216B140500769517 /* Build configuration list for PBXNativeTarget "IntresectionArrayKata" */;
+			buildPhases = (
+				AC620FDD216B140400769517 /* Sources */,
+				AC620FDE216B140400769517 /* Frameworks */,
+				AC620FDF216B140400769517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntresectionArrayKata;
+			productName = IntresectionArrayKata;
+			productReference = AC620FE1216B140400769517 /* IntresectionArrayKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC620FF0216B140500769517 /* IntresectionArrayKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC620FFD216B140500769517 /* Build configuration list for PBXNativeTarget "IntresectionArrayKataTests" */;
+			buildPhases = (
+				AC620FED216B140500769517 /* Sources */,
+				AC620FEE216B140500769517 /* Frameworks */,
+				AC620FEF216B140500769517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC620FF3216B140500769517 /* PBXTargetDependency */,
+			);
+			name = IntresectionArrayKataTests;
+			productName = IntresectionArrayKataTests;
+			productReference = AC620FF1216B140500769517 /* IntresectionArrayKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC620FD9216B140400769517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					AC620FE0216B140400769517 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AC620FF0216B140500769517 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AC620FE0216B140400769517;
+					};
+				};
+			};
+			buildConfigurationList = AC620FDC216B140400769517 /* Build configuration list for PBXProject "IntresectionArrayKata" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC620FD8216B140400769517;
+			productRefGroup = AC620FE2216B140400769517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC620FE0216B140400769517 /* IntresectionArrayKata */,
+				AC620FF0216B140500769517 /* IntresectionArrayKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC620FDF216B140400769517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC620FE7216B140500769517 /* Assets.xcassets in Resources */,
+				AC620FEA216B140500769517 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC620FEF216B140500769517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC620FDD216B140400769517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC620FE5216B140400769517 /* AppDelegate.swift in Sources */,
+				AC621001216B142400769517 /* ArrayExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC620FED216B140500769517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC620FF6216B140500769517 /* IntresectionArrayKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC620FF3216B140500769517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC620FE0216B140400769517 /* IntresectionArrayKata */;
+			targetProxy = AC620FF2216B140500769517 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC620FE8216B140500769517 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC620FE9216B140500769517 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC620FF8216B140500769517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC620FF9216B140500769517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC620FFB216B140500769517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IntresectionArrayKata/IntresectionArrayKata.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = IntresectionArrayKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.IntresectionArrayKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		AC620FFC216B140500769517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IntresectionArrayKata/IntresectionArrayKata.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = IntresectionArrayKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.IntresectionArrayKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		AC620FFE216B140500769517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = IntresectionArrayKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.IntresectionArrayKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntresectionArrayKata.app/Contents/MacOS/IntresectionArrayKata";
+			};
+			name = Debug;
+		};
+		AC620FFF216B140500769517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = IntresectionArrayKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.IntresectionArrayKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntresectionArrayKata.app/Contents/MacOS/IntresectionArrayKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC620FDC216B140400769517 /* Build configuration list for PBXProject "IntresectionArrayKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC620FF8216B140500769517 /* Debug */,
+				AC620FF9216B140500769517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC620FFA216B140500769517 /* Build configuration list for PBXNativeTarget "IntresectionArrayKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC620FFB216B140500769517 /* Debug */,
+				AC620FFC216B140500769517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC620FFD216B140500769517 /* Build configuration list for PBXNativeTarget "IntresectionArrayKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC620FFE216B140500769517 /* Debug */,
+				AC620FFF216B140500769517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC620FD9216B140400769517 /* Project object */;
+}
