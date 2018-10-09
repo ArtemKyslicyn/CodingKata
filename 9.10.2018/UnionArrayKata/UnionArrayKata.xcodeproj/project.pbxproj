@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC62103A216C5CBC00769517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC621039216C5CBC00769517 /* AppDelegate.swift */; };
+		AC62103C216C5CBD00769517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC62103B216C5CBD00769517 /* Assets.xcassets */; };
+		AC62103F216C5CBD00769517 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC62103D216C5CBD00769517 /* MainMenu.xib */; };
+		AC62104B216C5CBD00769517 /* UnionArrayKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC62104A216C5CBD00769517 /* UnionArrayKataTests.swift */; };
+		AC621056216C5CDB00769517 /* ExtensionArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC621055216C5CDB00769517 /* ExtensionArray.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC621047216C5CBD00769517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC62102E216C5CBC00769517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC621035216C5CBC00769517;
+			remoteInfo = UnionArrayKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC621036216C5CBC00769517 /* UnionArrayKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnionArrayKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC621039216C5CBC00769517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC62103B216C5CBD00769517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC62103E216C5CBD00769517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC621040216C5CBD00769517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC621041216C5CBD00769517 /* UnionArrayKata.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UnionArrayKata.entitlements; sourceTree = "<group>"; };
+		AC621046216C5CBD00769517 /* UnionArrayKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnionArrayKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC62104A216C5CBD00769517 /* UnionArrayKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionArrayKataTests.swift; sourceTree = "<group>"; };
+		AC62104C216C5CBD00769517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC621055216C5CDB00769517 /* ExtensionArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionArray.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC621033216C5CBC00769517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC621043216C5CBD00769517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC62102D216C5CBC00769517 = {
+			isa = PBXGroup;
+			children = (
+				AC621038216C5CBC00769517 /* UnionArrayKata */,
+				AC621049216C5CBD00769517 /* UnionArrayKataTests */,
+				AC621037216C5CBC00769517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC621037216C5CBC00769517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC621036216C5CBC00769517 /* UnionArrayKata.app */,
+				AC621046216C5CBD00769517 /* UnionArrayKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC621038216C5CBC00769517 /* UnionArrayKata */ = {
+			isa = PBXGroup;
+			children = (
+				AC621055216C5CDB00769517 /* ExtensionArray.swift */,
+				AC621039216C5CBC00769517 /* AppDelegate.swift */,
+				AC62103B216C5CBD00769517 /* Assets.xcassets */,
+				AC62103D216C5CBD00769517 /* MainMenu.xib */,
+				AC621040216C5CBD00769517 /* Info.plist */,
+				AC621041216C5CBD00769517 /* UnionArrayKata.entitlements */,
+			);
+			path = UnionArrayKata;
+			sourceTree = "<group>";
+		};
+		AC621049216C5CBD00769517 /* UnionArrayKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC62104A216C5CBD00769517 /* UnionArrayKataTests.swift */,
+				AC62104C216C5CBD00769517 /* Info.plist */,
+			);
+			path = UnionArrayKataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC621035216C5CBC00769517 /* UnionArrayKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC62104F216C5CBD00769517 /* Build configuration list for PBXNativeTarget "UnionArrayKata" */;
+			buildPhases = (
+				AC621032216C5CBC00769517 /* Sources */,
+				AC621033216C5CBC00769517 /* Frameworks */,
+				AC621034216C5CBC00769517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnionArrayKata;
+			productName = UnionArrayKata;
+			productReference = AC621036216C5CBC00769517 /* UnionArrayKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC621045216C5CBD00769517 /* UnionArrayKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC621052216C5CBD00769517 /* Build configuration list for PBXNativeTarget "UnionArrayKataTests" */;
+			buildPhases = (
+				AC621042216C5CBD00769517 /* Sources */,
+				AC621043216C5CBD00769517 /* Frameworks */,
+				AC621044216C5CBD00769517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC621048216C5CBD00769517 /* PBXTargetDependency */,
+			);
+			name = UnionArrayKataTests;
+			productName = UnionArrayKataTests;
+			productReference = AC621046216C5CBD00769517 /* UnionArrayKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC62102E216C5CBC00769517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					AC621035216C5CBC00769517 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AC621045216C5CBD00769517 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AC621035216C5CBC00769517;
+					};
+				};
+			};
+			buildConfigurationList = AC621031216C5CBC00769517 /* Build configuration list for PBXProject "UnionArrayKata" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC62102D216C5CBC00769517;
+			productRefGroup = AC621037216C5CBC00769517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC621035216C5CBC00769517 /* UnionArrayKata */,
+				AC621045216C5CBD00769517 /* UnionArrayKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC621034216C5CBC00769517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC62103C216C5CBD00769517 /* Assets.xcassets in Resources */,
+				AC62103F216C5CBD00769517 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC621044216C5CBD00769517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC621032216C5CBC00769517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC62103A216C5CBC00769517 /* AppDelegate.swift in Sources */,
+				AC621056216C5CDB00769517 /* ExtensionArray.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC621042216C5CBD00769517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC62104B216C5CBD00769517 /* UnionArrayKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC621048216C5CBD00769517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC621035216C5CBC00769517 /* UnionArrayKata */;
+			targetProxy = AC621047216C5CBD00769517 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC62103D216C5CBD00769517 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC62103E216C5CBD00769517 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC62104D216C5CBD00769517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC62104E216C5CBD00769517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC621050216C5CBD00769517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UnionArrayKata/UnionArrayKata.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = UnionArrayKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.UnionArrayKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		AC621051216C5CBD00769517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UnionArrayKata/UnionArrayKata.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = UnionArrayKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.UnionArrayKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		AC621053216C5CBD00769517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = UnionArrayKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.UnionArrayKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnionArrayKata.app/Contents/MacOS/UnionArrayKata";
+			};
+			name = Debug;
+		};
+		AC621054216C5CBD00769517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = UnionArrayKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.UnionArrayKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnionArrayKata.app/Contents/MacOS/UnionArrayKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC621031216C5CBC00769517 /* Build configuration list for PBXProject "UnionArrayKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC62104D216C5CBD00769517 /* Debug */,
+				AC62104E216C5CBD00769517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC62104F216C5CBD00769517 /* Build configuration list for PBXNativeTarget "UnionArrayKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC621050216C5CBD00769517 /* Debug */,
+				AC621051216C5CBD00769517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC621052216C5CBD00769517 /* Build configuration list for PBXNativeTarget "UnionArrayKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC621053216C5CBD00769517 /* Debug */,
+				AC621054216C5CBD00769517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC62102E216C5CBC00769517 /* Project object */;
+}
