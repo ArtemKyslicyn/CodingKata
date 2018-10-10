@@ -67,7 +67,7 @@ Last string occurency <br /><br />
 5.10.2018 <br />
 count occurency objects in array with NSCountSet <br /><br />
 6.10.2018 <br />
-Day off
+Day off <br /><br />
 7.10.2018 <br />
 Binary search <br /><br />
 8.10.2018<br />
