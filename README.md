@@ -65,7 +65,7 @@ First string occurency <br /><br />
 4.10.2018 <br />
 Last string occurency <br /><br />
 5.10.2018 <br />
-count occurency objects in array with NSCountSet <br /><br />
+Count occurency objects in array with NSCountSet <br /><br />
 6.10.2018 <br />
 Day off <br /><br />
 7.10.2018 <br />
