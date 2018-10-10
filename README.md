@@ -74,5 +74,5 @@ Binary search <br /><br />
 Intersection  arrays <br /><br />
 9.10.2018 <br />
 Union array without duplicates<br /><br />
-10.10.2018 <br /><br />
-Check duplicates in array  <br />
+10.10.2018 <br />
+Check duplicates in array  <br /><br />
