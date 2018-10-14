@@ -76,3 +76,11 @@ Intersection  arrays <br /><br />
 Union array without duplicates<br /><br />
 10.10.2018 <br />
 Check duplicates in array  <br /><br />
+11.10.2018 <br />
+union without duplicates in array  by key <br /><br />
+12.10.2018 <br />
+Is sorting Array  <br /><br />
+13.10.2018 <br />
+Day off  <br /><br />
+14.10.2018 <br />
+is Leap Year<br /><br />
