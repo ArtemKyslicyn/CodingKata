@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC9B23482174439F00B25859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B23472174439F00B25859 /* AppDelegate.swift */; };
+		AC9B234A217443A000B25859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9B2349217443A000B25859 /* Assets.xcassets */; };
+		AC9B234D217443A000B25859 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9B234B217443A000B25859 /* MainMenu.xib */; };
+		AC9B2359217443A000B25859 /* AmstrongNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B2358217443A000B25859 /* AmstrongNumberTests.swift */; };
+		AC9B2364217443EA00B25859 /* NumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B2363217443EA00B25859 /* NumberExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC9B2355217443A000B25859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9B233C2174439F00B25859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9B23432174439F00B25859;
+			remoteInfo = AmstrongNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC9B23442174439F00B25859 /* AmstrongNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmstrongNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9B23472174439F00B25859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC9B2349217443A000B25859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC9B234C217443A000B25859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC9B234E217443A000B25859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9B234F217443A000B25859 /* AmstrongNumber.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmstrongNumber.entitlements; sourceTree = "<group>"; };
+		AC9B2354217443A000B25859 /* AmstrongNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmstrongNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9B2358217443A000B25859 /* AmstrongNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmstrongNumberTests.swift; sourceTree = "<group>"; };
+		AC9B235A217443A000B25859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9B2363217443EA00B25859 /* NumberExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9B23412174439F00B25859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9B2351217443A000B25859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC9B233B2174439F00B25859 = {
+			isa = PBXGroup;
+			children = (
+				AC9B23462174439F00B25859 /* AmstrongNumber */,
+				AC9B2357217443A000B25859 /* AmstrongNumberTests */,
+				AC9B23452174439F00B25859 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9B23452174439F00B25859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B23442174439F00B25859 /* AmstrongNumber.app */,
+				AC9B2354217443A000B25859 /* AmstrongNumberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9B23462174439F00B25859 /* AmstrongNumber */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B23472174439F00B25859 /* AppDelegate.swift */,
+				AC9B2349217443A000B25859 /* Assets.xcassets */,
+				AC9B234B217443A000B25859 /* MainMenu.xib */,
+				AC9B234E217443A000B25859 /* Info.plist */,
+				AC9B234F217443A000B25859 /* AmstrongNumber.entitlements */,
+				AC9B2363217443EA00B25859 /* NumberExtension.swift */,
+			);
+			path = AmstrongNumber;
+			sourceTree = "<group>";
+		};
+		AC9B2357217443A000B25859 /* AmstrongNumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B2358217443A000B25859 /* AmstrongNumberTests.swift */,
+				AC9B235A217443A000B25859 /* Info.plist */,
+			);
+			path = AmstrongNumberTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9B23432174439F00B25859 /* AmstrongNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9B235D217443A000B25859 /* Build configuration list for PBXNativeTarget "AmstrongNumber" */;
+			buildPhases = (
+				AC9B23402174439F00B25859 /* Sources */,
+				AC9B23412174439F00B25859 /* Frameworks */,
+				AC9B23422174439F00B25859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmstrongNumber;
+			productName = AmstrongNumber;
+			productReference = AC9B23442174439F00B25859 /* AmstrongNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC9B2353217443A000B25859 /* AmstrongNumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9B2360217443A000B25859 /* Build configuration list for PBXNativeTarget "AmstrongNumberTests" */;
+			buildPhases = (
+				AC9B2350217443A000B25859 /* Sources */,
+				AC9B2351217443A000B25859 /* Frameworks */,
+				AC9B2352217443A000B25859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9B2356217443A000B25859 /* PBXTargetDependency */,
+			);
+			name = AmstrongNumberTests;
+			productName = AmstrongNumberTests;
+			productReference = AC9B2354217443A000B25859 /* AmstrongNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9B233C2174439F00B25859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					AC9B23432174439F00B25859 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AC9B2353217443A000B25859 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AC9B23432174439F00B25859;
+					};
+				};
+			};
+			buildConfigurationList = AC9B233F2174439F00B25859 /* Build configuration list for PBXProject "AmstrongNumber" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC9B233B2174439F00B25859;
+			productRefGroup = AC9B23452174439F00B25859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9B23432174439F00B25859 /* AmstrongNumber */,
+				AC9B2353217443A000B25859 /* AmstrongNumberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9B23422174439F00B25859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9B234A217443A000B25859 /* Assets.xcassets in Resources */,
+				AC9B234D217443A000B25859 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9B2352217443A000B25859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC9B23402174439F00B25859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9B2364217443EA00B25859 /* NumberExtension.swift in Sources */,
+				AC9B23482174439F00B25859 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9B2350217443A000B25859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9B2359217443A000B25859 /* AmstrongNumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC9B2356217443A000B25859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9B23432174439F00B25859 /* AmstrongNumber */;
+			targetProxy = AC9B2355217443A000B25859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC9B234B217443A000B25859 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9B234C217443A000B25859 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9B235B217443A000B25859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC9B235C217443A000B25859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC9B235E217443A000B25859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AmstrongNumber/AmstrongNumber.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = AmstrongNumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.AmstrongNumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		AC9B235F217443A000B25859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AmstrongNumber/AmstrongNumber.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = AmstrongNumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.AmstrongNumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		AC9B2361217443A000B25859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = AmstrongNumberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.AmstrongNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmstrongNumber.app/Contents/MacOS/AmstrongNumber";
+			};
+			name = Debug;
+		};
+		AC9B2362217443A000B25859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = AmstrongNumberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.AmstrongNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmstrongNumber.app/Contents/MacOS/AmstrongNumber";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9B233F2174439F00B25859 /* Build configuration list for PBXProject "AmstrongNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9B235B217443A000B25859 /* Debug */,
+				AC9B235C217443A000B25859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9B235D217443A000B25859 /* Build configuration list for PBXNativeTarget "AmstrongNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9B235E217443A000B25859 /* Debug */,
+				AC9B235F217443A000B25859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9B2360217443A000B25859 /* Build configuration list for PBXNativeTarget "AmstrongNumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9B2361217443A000B25859 /* Debug */,
+				AC9B2362217443A000B25859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC9B233C2174439F00B25859 /* Project object */;
+}
