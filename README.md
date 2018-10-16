@@ -84,3 +84,5 @@ Is sorting Array  <br /><br />
 Day off  <br /><br />
 14.10.2018 <br />
 is Leap Year<br /><br />
+15.10.2018 <br />
+is Amstrong Number <br /><br />
