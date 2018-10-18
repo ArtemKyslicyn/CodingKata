@@ -86,3 +86,7 @@ Day off  <br /><br />
 is Leap Year<br /><br />
 15.10.2018 <br />
 is Amstrong Number <br /><br />
+16.10.2018 <br />
+Fast Exponentation <br /><br />
+17.10.2018 <br />
+Binary to decimal <br /><br />
