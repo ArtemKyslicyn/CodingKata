@@ -11,6 +11,7 @@
 		AC04EC0121798B6F009ABC5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC04EC0021798B6F009ABC5D /* Assets.xcassets */; };
 		AC04EC0421798B6F009ABC5D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04EC0221798B6F009ABC5D /* MainMenu.xib */; };
 		AC04EC1021798B6F009ABC5D /* NuberToAnotherNumericSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EC0F21798B6F009ABC5D /* NuberToAnotherNumericSystemTests.swift */; };
+		AC04EC1B21798B8B009ABC5D /* NumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04EC1A21798B8B009ABC5D /* NumberExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		AC04EC0B21798B6F009ABC5D /* NuberToAnotherNumericSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuberToAnotherNumericSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC04EC0F21798B6F009ABC5D /* NuberToAnotherNumericSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuberToAnotherNumericSystemTests.swift; sourceTree = "<group>"; };
 		AC04EC1121798B6F009ABC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC04EC1A21798B8B009ABC5D /* NumberExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				AC04EC0221798B6F009ABC5D /* MainMenu.xib */,
 				AC04EC0521798B6F009ABC5D /* Info.plist */,
 				AC04EC0621798B6F009ABC5D /* NuberToAnotherNumericSystem.entitlements */,
+				AC04EC1A21798B8B009ABC5D /* NumberExtension.swift */,
 			);
 			path = NuberToAnotherNumericSystem;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC04EC1B21798B8B009ABC5D /* NumberExtension.swift in Sources */,
 				AC04EBFF21798B6D009ABC5D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
