@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACAA024F217ED47A00E9DBAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA024E217ED47A00E9DBAA /* AppDelegate.swift */; };
+		ACAA0251217ED47B00E9DBAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAA0250217ED47B00E9DBAA /* Assets.xcassets */; };
+		ACAA0254217ED47B00E9DBAA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACAA0252217ED47B00E9DBAA /* MainMenu.xib */; };
+		ACAA0260217ED47B00E9DBAA /* IterativeFibonachiKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA025F217ED47B00E9DBAA /* IterativeFibonachiKataTests.swift */; };
+		ACAA026B217ED4B400E9DBAA /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA026A217ED4B400E9DBAA /* IntExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACAA025C217ED47B00E9DBAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAA0243217ED47A00E9DBAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAA024A217ED47A00E9DBAA;
+			remoteInfo = IterativeFibonachiKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACAA024B217ED47A00E9DBAA /* IterativeFibonachiKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IterativeFibonachiKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAA024E217ED47A00E9DBAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACAA0250217ED47B00E9DBAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACAA0253217ED47B00E9DBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ACAA0255217ED47B00E9DBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAA0256217ED47B00E9DBAA /* IterativeFibonachiKata.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IterativeFibonachiKata.entitlements; sourceTree = "<group>"; };
+		ACAA025B217ED47B00E9DBAA /* IterativeFibonachiKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IterativeFibonachiKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAA025F217ED47B00E9DBAA /* IterativeFibonachiKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IterativeFibonachiKataTests.swift; sourceTree = "<group>"; };
+		ACAA0261217ED47B00E9DBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAA026A217ED4B400E9DBAA /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAA0248217ED47A00E9DBAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAA0258217ED47B00E9DBAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACAA0242217ED47A00E9DBAA = {
+			isa = PBXGroup;
+			children = (
+				ACAA024D217ED47A00E9DBAA /* IterativeFibonachiKata */,
+				ACAA025E217ED47B00E9DBAA /* IterativeFibonachiKataTests */,
+				ACAA024C217ED47A00E9DBAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAA024C217ED47A00E9DBAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAA024B217ED47A00E9DBAA /* IterativeFibonachiKata.app */,
+				ACAA025B217ED47B00E9DBAA /* IterativeFibonachiKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAA024D217ED47A00E9DBAA /* IterativeFibonachiKata */ = {
+			isa = PBXGroup;
+			children = (
+				ACAA024E217ED47A00E9DBAA /* AppDelegate.swift */,
+				ACAA0250217ED47B00E9DBAA /* Assets.xcassets */,
+				ACAA0252217ED47B00E9DBAA /* MainMenu.xib */,
+				ACAA0255217ED47B00E9DBAA /* Info.plist */,
+				ACAA0256217ED47B00E9DBAA /* IterativeFibonachiKata.entitlements */,
+				ACAA026A217ED4B400E9DBAA /* IntExtension.swift */,
+			);
+			path = IterativeFibonachiKata;
+			sourceTree = "<group>";
+		};
+		ACAA025E217ED47B00E9DBAA /* IterativeFibonachiKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACAA025F217ED47B00E9DBAA /* IterativeFibonachiKataTests.swift */,
+				ACAA0261217ED47B00E9DBAA /* Info.plist */,
+			);
+			path = IterativeFibonachiKataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAA024A217ED47A00E9DBAA /* IterativeFibonachiKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAA0264217ED47B00E9DBAA /* Build configuration list for PBXNativeTarget "IterativeFibonachiKata" */;
+			buildPhases = (
+				ACAA0247217ED47A00E9DBAA /* Sources */,
+				ACAA0248217ED47A00E9DBAA /* Frameworks */,
+				ACAA0249217ED47A00E9DBAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IterativeFibonachiKata;
+			productName = IterativeFibonachiKata;
+			productReference = ACAA024B217ED47A00E9DBAA /* IterativeFibonachiKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACAA025A217ED47B00E9DBAA /* IterativeFibonachiKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAA0267217ED47B00E9DBAA /* Build configuration list for PBXNativeTarget "IterativeFibonachiKataTests" */;
+			buildPhases = (
+				ACAA0257217ED47B00E9DBAA /* Sources */,
+				ACAA0258217ED47B00E9DBAA /* Frameworks */,
+				ACAA0259217ED47B00E9DBAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAA025D217ED47B00E9DBAA /* PBXTargetDependency */,
+			);
+			name = IterativeFibonachiKataTests;
+			productName = IterativeFibonachiKataTests;
+			productReference = ACAA025B217ED47B00E9DBAA /* IterativeFibonachiKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAA0243217ED47A00E9DBAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					ACAA024A217ED47A00E9DBAA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					ACAA025A217ED47B00E9DBAA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ACAA024A217ED47A00E9DBAA;
+					};
+				};
+			};
+			buildConfigurationList = ACAA0246217ED47A00E9DBAA /* Build configuration list for PBXProject "IterativeFibonachiKata" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACAA0242217ED47A00E9DBAA;
+			productRefGroup = ACAA024C217ED47A00E9DBAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAA024A217ED47A00E9DBAA /* IterativeFibonachiKata */,
+				ACAA025A217ED47B00E9DBAA /* IterativeFibonachiKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACAA0249217ED47A00E9DBAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAA0251217ED47B00E9DBAA /* Assets.xcassets in Resources */,
+				ACAA0254217ED47B00E9DBAA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAA0259217ED47B00E9DBAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAA0247217ED47A00E9DBAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAA024F217ED47A00E9DBAA /* AppDelegate.swift in Sources */,
+				ACAA026B217ED4B400E9DBAA /* IntExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAA0257217ED47B00E9DBAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAA0260217ED47B00E9DBAA /* IterativeFibonachiKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACAA025D217ED47B00E9DBAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAA024A217ED47A00E9DBAA /* IterativeFibonachiKata */;
+			targetProxy = ACAA025C217ED47B00E9DBAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACAA0252217ED47B00E9DBAA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAA0253217ED47B00E9DBAA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACAA0262217ED47B00E9DBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACAA0263217ED47B00E9DBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ACAA0265217ED47B00E9DBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IterativeFibonachiKata/IterativeFibonachiKata.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = IterativeFibonachiKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.IterativeFibonachiKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		ACAA0266217ED47B00E9DBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IterativeFibonachiKata/IterativeFibonachiKata.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = IterativeFibonachiKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.IterativeFibonachiKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		ACAA0268217ED47B00E9DBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = IterativeFibonachiKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.IterativeFibonachiKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IterativeFibonachiKata.app/Contents/MacOS/IterativeFibonachiKata";
+			};
+			name = Debug;
+		};
+		ACAA0269217ED47B00E9DBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = IterativeFibonachiKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.IterativeFibonachiKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IterativeFibonachiKata.app/Contents/MacOS/IterativeFibonachiKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAA0246217ED47A00E9DBAA /* Build configuration list for PBXProject "IterativeFibonachiKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAA0262217ED47B00E9DBAA /* Debug */,
+				ACAA0263217ED47B00E9DBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAA0264217ED47B00E9DBAA /* Build configuration list for PBXNativeTarget "IterativeFibonachiKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAA0265217ED47B00E9DBAA /* Debug */,
+				ACAA0266217ED47B00E9DBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAA0267217ED47B00E9DBAA /* Build configuration list for PBXNativeTarget "IterativeFibonachiKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAA0268217ED47B00E9DBAA /* Debug */,
+				ACAA0269217ED47B00E9DBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACAA0243217ED47A00E9DBAA /* Project object */;
+}
