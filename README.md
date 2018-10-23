@@ -90,3 +90,15 @@ is Amstrong Number <br /><br />
 Fast Exponentation <br /><br />
 17.10.2018 <br />
 Binary to decimal <br /><br />
+18.10.2018 <br />
+decimal to binary <br /><br />
+19.10.2018 <br />
+Number To Another Numeric System <br /><br />
+20.10.2018 <br />
+Day off <br /><br />
+21.10.2018 <br />
+Diff string <br /><br />
+22.10.2018 <br />
+Shell sorting <br /><br />
+
+
