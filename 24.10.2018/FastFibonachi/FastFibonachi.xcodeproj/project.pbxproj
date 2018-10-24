@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC691B252180221F0080FD56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC691B242180221F0080FD56 /* AppDelegate.swift */; };
+		AC691B27218022200080FD56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC691B26218022200080FD56 /* Assets.xcassets */; };
+		AC691B2A218022200080FD56 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC691B28218022200080FD56 /* MainMenu.xib */; };
+		AC691B36218022210080FD56 /* FastFibonachiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC691B35218022210080FD56 /* FastFibonachiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC691B32218022210080FD56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC691B192180221E0080FD56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC691B202180221E0080FD56;
+			remoteInfo = FastFibonachi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC691B212180221E0080FD56 /* FastFibonachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastFibonachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC691B242180221F0080FD56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC691B26218022200080FD56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC691B29218022200080FD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC691B2B218022200080FD56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC691B2C218022200080FD56 /* FastFibonachi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastFibonachi.entitlements; sourceTree = "<group>"; };
+		AC691B31218022210080FD56 /* FastFibonachiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastFibonachiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC691B35218022210080FD56 /* FastFibonachiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastFibonachiTests.swift; sourceTree = "<group>"; };
+		AC691B37218022210080FD56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC691B1E2180221E0080FD56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC691B2E218022210080FD56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC691B182180221E0080FD56 = {
+			isa = PBXGroup;
+			children = (
+				AC691B232180221E0080FD56 /* FastFibonachi */,
+				AC691B34218022210080FD56 /* FastFibonachiTests */,
+				AC691B222180221E0080FD56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC691B222180221E0080FD56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC691B212180221E0080FD56 /* FastFibonachi.app */,
+				AC691B31218022210080FD56 /* FastFibonachiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC691B232180221E0080FD56 /* FastFibonachi */ = {
+			isa = PBXGroup;
+			children = (
+				AC691B242180221F0080FD56 /* AppDelegate.swift */,
+				AC691B26218022200080FD56 /* Assets.xcassets */,
+				AC691B28218022200080FD56 /* MainMenu.xib */,
+				AC691B2B218022200080FD56 /* Info.plist */,
+				AC691B2C218022200080FD56 /* FastFibonachi.entitlements */,
+			);
+			path = FastFibonachi;
+			sourceTree = "<group>";
+		};
+		AC691B34218022210080FD56 /* FastFibonachiTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC691B35218022210080FD56 /* FastFibonachiTests.swift */,
+				AC691B37218022210080FD56 /* Info.plist */,
+			);
+			path = FastFibonachiTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC691B202180221E0080FD56 /* FastFibonachi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC691B3A218022210080FD56 /* Build configuration list for PBXNativeTarget "FastFibonachi" */;
+			buildPhases = (
+				AC691B1D2180221E0080FD56 /* Sources */,
+				AC691B1E2180221E0080FD56 /* Frameworks */,
+				AC691B1F2180221E0080FD56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastFibonachi;
+			productName = FastFibonachi;
+			productReference = AC691B212180221E0080FD56 /* FastFibonachi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC691B30218022210080FD56 /* FastFibonachiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC691B3D218022210080FD56 /* Build configuration list for PBXNativeTarget "FastFibonachiTests" */;
+			buildPhases = (
+				AC691B2D218022210080FD56 /* Sources */,
+				AC691B2E218022210080FD56 /* Frameworks */,
+				AC691B2F218022210080FD56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC691B33218022210080FD56 /* PBXTargetDependency */,
+			);
+			name = FastFibonachiTests;
+			productName = FastFibonachiTests;
+			productReference = AC691B31218022210080FD56 /* FastFibonachiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC691B192180221E0080FD56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					AC691B202180221E0080FD56 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AC691B30218022210080FD56 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AC691B202180221E0080FD56;
+					};
+				};
+			};
+			buildConfigurationList = AC691B1C2180221E0080FD56 /* Build configuration list for PBXProject "FastFibonachi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC691B182180221E0080FD56;
+			productRefGroup = AC691B222180221E0080FD56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC691B202180221E0080FD56 /* FastFibonachi */,
+				AC691B30218022210080FD56 /* FastFibonachiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC691B1F2180221E0080FD56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC691B27218022200080FD56 /* Assets.xcassets in Resources */,
+				AC691B2A218022200080FD56 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC691B2F218022210080FD56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC691B1D2180221E0080FD56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC691B252180221F0080FD56 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC691B2D218022210080FD56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC691B36218022210080FD56 /* FastFibonachiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC691B33218022210080FD56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC691B202180221E0080FD56 /* FastFibonachi */;
+			targetProxy = AC691B32218022210080FD56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC691B28218022200080FD56 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC691B29218022200080FD56 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC691B38218022210080FD56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC691B39218022210080FD56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC691B3B218022210080FD56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FastFibonachi/FastFibonachi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = FastFibonachi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.FastFibonachi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		AC691B3C218022210080FD56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FastFibonachi/FastFibonachi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = FastFibonachi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.FastFibonachi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		AC691B3E218022210080FD56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = FastFibonachiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.FastFibonachiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastFibonachi.app/Contents/MacOS/FastFibonachi";
+			};
+			name = Debug;
+		};
+		AC691B3F218022210080FD56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = FastFibonachiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.FastFibonachiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastFibonachi.app/Contents/MacOS/FastFibonachi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC691B1C2180221E0080FD56 /* Build configuration list for PBXProject "FastFibonachi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC691B38218022210080FD56 /* Debug */,
+				AC691B39218022210080FD56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC691B3A218022210080FD56 /* Build configuration list for PBXNativeTarget "FastFibonachi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC691B3B218022210080FD56 /* Debug */,
+				AC691B3C218022210080FD56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC691B3D218022210080FD56 /* Build configuration list for PBXNativeTarget "FastFibonachiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC691B3E218022210080FD56 /* Debug */,
+				AC691B3F218022210080FD56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC691B192180221E0080FD56 /* Project object */;
+}
