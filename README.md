@@ -100,5 +100,11 @@ Day off <br /><br />
 Diff string <br /><br />
 22.10.2018 <br />
 Shell sorting <br /><br />
+23.10.2018 <br />
+Iterarative Fibonachi <br /><br />
+24.10.2018 <br />
+Fast fibonachi <br /><br />
+25.10.2018 <br />
+Selection sorting <br /><br />
 
 
