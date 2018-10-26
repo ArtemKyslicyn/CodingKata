@@ -1,23 +1,27 @@
 //
 //  ArrayExtension.swift
-//  SelectionSort
+//  PartialSelectionSortKata
 //
-//  Created by Artem Kislitsyn on 25.10.2018.
+//  Created by Artem Kislitsyn on 26.10.2018.
 //  Copyright © 2018 3. All rights reserved.
 //
 
 import Foundation
 
 extension Array  where Element: Comparable{
-	public mutating func selectionSort()  {
-		for i in 0...self.count-1{
+	public mutating func selectionSort(k:Int)  {
+		
+		for i in 0..<k{
 			var min = i;
+			var minValue = self[i];
 			var j = i+1
 			while (j < self.count)
 			{
-				if self[j]  < self[min]
+				let el = self[j]
+				if el < minValue
 				{
 					min = j
+					minValue = el
 				}
 				j+=1
 				
@@ -30,5 +34,4 @@ extension Array  where Element: Comparable{
 		
 	}
 }
-
 
