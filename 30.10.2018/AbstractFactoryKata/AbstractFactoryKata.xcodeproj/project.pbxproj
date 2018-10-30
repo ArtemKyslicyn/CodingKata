@@ -13,7 +13,7 @@
 		ACA0598221880CE0002B79F1 /* AbstractFactoryKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0598121880CE0002B79F1 /* AbstractFactoryKataTests.swift */; };
 		ACA0598D21880D60002B79F1 /* DecimalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0598C21880D60002B79F1 /* DecimalProtocol.swift */; };
 		ACA0598F21880DC6002B79F1 /* NexstepNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0598E21880DC6002B79F1 /* NexstepNumber.swift */; };
-		ACA0599121880DE2002B79F1 /* SwiftNmber.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0599021880DE2002B79F1 /* SwiftNmber.swift */; };
+		ACA0599121880DE2002B79F1 /* SwiftNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0599021880DE2002B79F1 /* SwiftNumber.swift */; };
 		ACA0599321880E6D002B79F1 /* NumberFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0599221880E6D002B79F1 /* NumberFactory.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +39,7 @@
 		ACA0598321880CE0002B79F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACA0598C21880D60002B79F1 /* DecimalProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalProtocol.swift; sourceTree = "<group>"; };
 		ACA0598E21880DC6002B79F1 /* NexstepNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexstepNumber.swift; sourceTree = "<group>"; };
-		ACA0599021880DE2002B79F1 /* SwiftNmber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNmber.swift; sourceTree = "<group>"; };
+		ACA0599021880DE2002B79F1 /* SwiftNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber.swift; sourceTree = "<group>"; };
 		ACA0599221880E6D002B79F1 /* NumberFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +89,7 @@
 				ACA0597821880CE0002B79F1 /* AbstractFactoryKata.entitlements */,
 				ACA0598C21880D60002B79F1 /* DecimalProtocol.swift */,
 				ACA0598E21880DC6002B79F1 /* NexstepNumber.swift */,
-				ACA0599021880DE2002B79F1 /* SwiftNmber.swift */,
+				ACA0599021880DE2002B79F1 /* SwiftNumber.swift */,
 				ACA0599221880E6D002B79F1 /* NumberFactory.swift */,
 			);
 			path = AbstractFactoryKata;
@@ -204,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACA0599121880DE2002B79F1 /* SwiftNmber.swift in Sources */,
+				ACA0599121880DE2002B79F1 /* SwiftNumber.swift in Sources */,
 				ACA0598F21880DC6002B79F1 /* NexstepNumber.swift in Sources */,
 				ACA0597121880CDF002B79F1 /* AppDelegate.swift in Sources */,
 				ACA0599321880E6D002B79F1 /* NumberFactory.swift in Sources */,
