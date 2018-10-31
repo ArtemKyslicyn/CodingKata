@@ -106,5 +106,16 @@ Iterarative Fibonachi <br /><br />
 Fast fibonachi <br /><br />
 25.10.2018 <br />
 Selection sorting <br /><br />
+26.10.2018 <br />
+PartialSelectionSortKata <br /><br />
+27.10.2018 <br />
+Day off<br /><br />
+28.10.2018 <br />
+Heap Sort<br /><br />
+29.10.2018 <br />
+Fizz Buzz<br /><br />
+30.10.2018 <br />
+Abstract Factory<br /><br />
+
 
 
