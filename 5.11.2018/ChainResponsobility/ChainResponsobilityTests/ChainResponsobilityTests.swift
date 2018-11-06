@@ -12,7 +12,7 @@ import XCTest
 class ChainResponsobilityTests: XCTestCase {
 
 
-    func testExample()
+    func testChainResponsobility()
 	{
 		//arrange
 		let ten = MoneyPile(value: 10, quantity: 6, nextPile: nil)
