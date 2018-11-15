@@ -116,6 +116,35 @@ Heap Sort<br /><br />
 Fizz Buzz<br /><br />
 30.10.2018 <br />
 Abstract Factory<br /><br />
-
+31.10.2018 <br />
+Builder<br /><br />
+1.11.2018 <br />
+Factory method<br /><br />
+2.11.2018 <br />
+Prototype<br /><br />
+3.11.2018 <br />
+Day off<br /><br />
+4.11.2018 <br />
+Singleton<br /><br />
+5.11.2018 <br />
+Chain Responsobility<br /><br />
+6.11.2018 <br />
+Command<br /><br />
+7.11.2018 <br />
+Iterator<br /><br />
+8.11.2018 <br />
+Mediator<br /><br />
+9.11.2018 <br />
+State<br /><br />
+10.11.2018 <br />
+Day off<br /><br />
+11.11.2018 <br />
+Strategy<br /><br />
+12.11.2018 <br />
+Memento<br /><br />
+13.11.2018 <br />
+Adapter<br /><br />
+14.11.2018 <br />
+Decorator<br /><br />
 
 
