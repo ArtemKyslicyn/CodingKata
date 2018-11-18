@@ -12,11 +12,11 @@ import XCTest
 class CompositeTests: XCTestCase {
 
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+		TestLoger.sharedInstance.clear()
     }
 
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+		TestLoger.sharedInstance.clear()
     }
 
     func testComposite() {
@@ -27,13 +27,11 @@ class CompositeTests: XCTestCase {
 		//act
 		whiteboard.draw(fillColor: "Red")
 		
+	    //assert
+		XCTAssertEqual(TestLoger.sharedInstance.logs,["Drawing a circle with color Red","Drawing a Square with color Red"])
+		
     }
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+	
 
 }

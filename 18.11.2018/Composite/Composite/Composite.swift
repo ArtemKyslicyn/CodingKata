@@ -8,6 +8,22 @@
 
 import Foundation
 
+//ONLY FOR TESTING
+class TestLoger {
+	public var logs = [String]()
+	static let sharedInstance = TestLoger()
+	
+	public func addLog(string:String)  {
+		logs.append(string)
+	}
+	public func clear()  {
+		logs.removeAll()
+	}
+	
+	private init() {
+		// Private initialization to ensure just one instance is created.
+	}
+}
 protocol Shape {
 	func draw(fillColor: String)
 }
@@ -15,12 +31,14 @@ protocol Shape {
 final class Square : Shape {
 	func draw(fillColor: String) {
 		print("Drawing a Square with color \(fillColor)")
+		TestLoger.sharedInstance.addLog(string: "Drawing a Square with color \(fillColor)")
 	}
 }
 
 final class Circle : Shape {
 	func draw(fillColor: String) {
 		print("Drawing a circle with color \(fillColor)")
+		TestLoger.sharedInstance.addLog(string: "Drawing a circle with color \(fillColor)")
 	}
 }
 
