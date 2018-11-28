@@ -25,4 +25,4 @@ class SelectionSortTests: XCTestCase {
 	}
 
 }
-introsort(&unsorted, by: <)
+
