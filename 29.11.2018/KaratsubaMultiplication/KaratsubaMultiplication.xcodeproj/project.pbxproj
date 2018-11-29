@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC92E8F421AF9E52003998CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92E8F321AF9E52003998CE /* AppDelegate.swift */; };
+		AC92E8F621AF9E53003998CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC92E8F521AF9E53003998CE /* Assets.xcassets */; };
+		AC92E8F921AF9E53003998CE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC92E8F721AF9E53003998CE /* MainMenu.xib */; };
+		AC92E90521AF9E53003998CE /* KaratsubaMultiplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92E90421AF9E53003998CE /* KaratsubaMultiplicationTests.swift */; };
+		AC92E91021AF9E73003998CE /* KaratsubaMultiplicztion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92E90F21AF9E73003998CE /* KaratsubaMultiplicztion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC92E90121AF9E53003998CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC92E8E821AF9E52003998CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC92E8EF21AF9E52003998CE;
+			remoteInfo = KaratsubaMultiplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC92E8F021AF9E52003998CE /* KaratsubaMultiplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaratsubaMultiplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC92E8F321AF9E52003998CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC92E8F521AF9E53003998CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC92E8F821AF9E53003998CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC92E8FA21AF9E53003998CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC92E8FB21AF9E53003998CE /* KaratsubaMultiplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KaratsubaMultiplication.entitlements; sourceTree = "<group>"; };
+		AC92E90021AF9E53003998CE /* KaratsubaMultiplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaratsubaMultiplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC92E90421AF9E53003998CE /* KaratsubaMultiplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaratsubaMultiplicationTests.swift; sourceTree = "<group>"; };
+		AC92E90621AF9E53003998CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC92E90F21AF9E73003998CE /* KaratsubaMultiplicztion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaratsubaMultiplicztion.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC92E8ED21AF9E52003998CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC92E8FD21AF9E53003998CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC92E8E721AF9E52003998CE = {
+			isa = PBXGroup;
+			children = (
+				AC92E8F221AF9E52003998CE /* KaratsubaMultiplication */,
+				AC92E90321AF9E53003998CE /* KaratsubaMultiplicationTests */,
+				AC92E8F121AF9E52003998CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC92E8F121AF9E52003998CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC92E8F021AF9E52003998CE /* KaratsubaMultiplication.app */,
+				AC92E90021AF9E53003998CE /* KaratsubaMultiplicationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC92E8F221AF9E52003998CE /* KaratsubaMultiplication */ = {
+			isa = PBXGroup;
+			children = (
+				AC92E8F321AF9E52003998CE /* AppDelegate.swift */,
+				AC92E8F521AF9E53003998CE /* Assets.xcassets */,
+				AC92E8F721AF9E53003998CE /* MainMenu.xib */,
+				AC92E8FA21AF9E53003998CE /* Info.plist */,
+				AC92E8FB21AF9E53003998CE /* KaratsubaMultiplication.entitlements */,
+				AC92E90F21AF9E73003998CE /* KaratsubaMultiplicztion.swift */,
+			);
+			path = KaratsubaMultiplication;
+			sourceTree = "<group>";
+		};
+		AC92E90321AF9E53003998CE /* KaratsubaMultiplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC92E90421AF9E53003998CE /* KaratsubaMultiplicationTests.swift */,
+				AC92E90621AF9E53003998CE /* Info.plist */,
+			);
+			path = KaratsubaMultiplicationTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC92E8EF21AF9E52003998CE /* KaratsubaMultiplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC92E90921AF9E53003998CE /* Build configuration list for PBXNativeTarget "KaratsubaMultiplication" */;
+			buildPhases = (
+				AC92E8EC21AF9E52003998CE /* Sources */,
+				AC92E8ED21AF9E52003998CE /* Frameworks */,
+				AC92E8EE21AF9E52003998CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaratsubaMultiplication;
+			productName = KaratsubaMultiplication;
+			productReference = AC92E8F021AF9E52003998CE /* KaratsubaMultiplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC92E8FF21AF9E53003998CE /* KaratsubaMultiplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC92E90C21AF9E53003998CE /* Build configuration list for PBXNativeTarget "KaratsubaMultiplicationTests" */;
+			buildPhases = (
+				AC92E8FC21AF9E53003998CE /* Sources */,
+				AC92E8FD21AF9E53003998CE /* Frameworks */,
+				AC92E8FE21AF9E53003998CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC92E90221AF9E53003998CE /* PBXTargetDependency */,
+			);
+			name = KaratsubaMultiplicationTests;
+			productName = KaratsubaMultiplicationTests;
+			productReference = AC92E90021AF9E53003998CE /* KaratsubaMultiplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC92E8E821AF9E52003998CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					AC92E8EF21AF9E52003998CE = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AC92E8FF21AF9E53003998CE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AC92E8EF21AF9E52003998CE;
+					};
+				};
+			};
+			buildConfigurationList = AC92E8EB21AF9E52003998CE /* Build configuration list for PBXProject "KaratsubaMultiplication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC92E8E721AF9E52003998CE;
+			productRefGroup = AC92E8F121AF9E52003998CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC92E8EF21AF9E52003998CE /* KaratsubaMultiplication */,
+				AC92E8FF21AF9E53003998CE /* KaratsubaMultiplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC92E8EE21AF9E52003998CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC92E8F621AF9E53003998CE /* Assets.xcassets in Resources */,
+				AC92E8F921AF9E53003998CE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC92E8FE21AF9E53003998CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC92E8EC21AF9E52003998CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC92E8F421AF9E52003998CE /* AppDelegate.swift in Sources */,
+				AC92E91021AF9E73003998CE /* KaratsubaMultiplicztion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC92E8FC21AF9E53003998CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC92E90521AF9E53003998CE /* KaratsubaMultiplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC92E90221AF9E53003998CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC92E8EF21AF9E52003998CE /* KaratsubaMultiplication */;
+			targetProxy = AC92E90121AF9E53003998CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC92E8F721AF9E53003998CE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC92E8F821AF9E53003998CE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC92E90721AF9E53003998CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC92E90821AF9E53003998CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC92E90A21AF9E53003998CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KaratsubaMultiplication/KaratsubaMultiplication.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = KaratsubaMultiplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.KaratsubaMultiplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		AC92E90B21AF9E53003998CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KaratsubaMultiplication/KaratsubaMultiplication.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = KaratsubaMultiplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.KaratsubaMultiplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		AC92E90D21AF9E53003998CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = KaratsubaMultiplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.KaratsubaMultiplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaratsubaMultiplication.app/Contents/MacOS/KaratsubaMultiplication";
+			};
+			name = Debug;
+		};
+		AC92E90E21AF9E53003998CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E53J7FJ2ED;
+				INFOPLIST_FILE = KaratsubaMultiplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.KaratsubaMultiplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaratsubaMultiplication.app/Contents/MacOS/KaratsubaMultiplication";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC92E8EB21AF9E52003998CE /* Build configuration list for PBXProject "KaratsubaMultiplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC92E90721AF9E53003998CE /* Debug */,
+				AC92E90821AF9E53003998CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC92E90921AF9E53003998CE /* Build configuration list for PBXNativeTarget "KaratsubaMultiplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC92E90A21AF9E53003998CE /* Debug */,
+				AC92E90B21AF9E53003998CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC92E90C21AF9E53003998CE /* Build configuration list for PBXNativeTarget "KaratsubaMultiplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC92E90D21AF9E53003998CE /* Debug */,
+				AC92E90E21AF9E53003998CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC92E8E821AF9E52003998CE /* Project object */;
+}
