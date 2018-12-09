@@ -193,6 +193,8 @@ Minimal coin<br /><br />
 7.12.2018 <br />
 Minimal edit distanse<br /><br />
 9.12.2018 <br />
+day off<br /><br />
+9.12.2018 <br />
 harvesine distanse<br /><br />
 
 
