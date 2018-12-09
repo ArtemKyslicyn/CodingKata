@@ -146,5 +146,53 @@ Memento<br /><br />
 Adapter<br /><br />
 14.11.2018 <br />
 Decorator<br /><br />
+15.11.2018 <br />
+ProtectedProxy<br /><br />
+16.11.2018 <br />
+Virtual Proxy<br /><br />
+17.11.2018 <br />
+day off<br /><br />
+18.11.2018 <br />
+Compositef<br /><br />
+19.11.2018 <br />
+Bridgef<br /><br />
+20.11.2018 <br />
+Vizitor<br /><br />
+21.11.2018 <br />
+Iterprete<br /><br />
+22.11.2018 <br />
+Observer<br /><br />
+23.11.2018 <br />
+Template<br /><br />
+24.11.2018 <br />
+Day off<br /><br />
+25.11.2018 <br />
+Facade<br /><br />
+26.11.2018 <br />
+Flyweight<br /><br />
+27.11.2018 <br />
+Introsort<br /><br />
+28.11.2018 <br />
+Maximum and ninimum<br /><br />
+29.11.2018 <br />
+Karatsuba multiplication<br /><br />
+30.11.2018 <br />
+RLE<br /><br />
+1.12.2018 <br />
+Day off<br /><br />
+2.12.2018 <br />
+Bloom filter<br /><br />
+3.12.2018 <br />
+kth Lagest<br /><br />
+4.12.2018 <br />
+multiset<br /><br />
+5.12.2018 <br />
+counting sort<br /><br />
+6.12.2018 <br />
+Minimal coin<br /><br />
+7.12.2018 <br />
+Minimal edit distanse<br /><br />
+9.12.2018 <br />
+harvesine distanse<br /><br />
 
 
