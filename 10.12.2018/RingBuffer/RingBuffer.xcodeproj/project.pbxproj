@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0D172821BF171900BCEA68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D172721BF171900BCEA68 /* AppDelegate.swift */; };
+		AC0D172A21BF171B00BCEA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0D172921BF171B00BCEA68 /* Assets.xcassets */; };
+		AC0D172D21BF171B00BCEA68 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC0D172B21BF171B00BCEA68 /* MainMenu.xib */; };
+		AC0D173921BF171B00BCEA68 /* RingBufferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D173821BF171B00BCEA68 /* RingBufferTests.swift */; };
+		AC0D174421BF175000BCEA68 /* RingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D174321BF175000BCEA68 /* RingBuffer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0D173521BF171B00BCEA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0D171C21BF171900BCEA68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0D172321BF171900BCEA68;
+			remoteInfo = RingBuffer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC0D172421BF171900BCEA68 /* RingBuffer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingBuffer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0D172721BF171900BCEA68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC0D172921BF171B00BCEA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0D172C21BF171B00BCEA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC0D172E21BF171B00BCEA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0D172F21BF171B00BCEA68 /* RingBuffer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RingBuffer.entitlements; sourceTree = "<group>"; };
+		AC0D173421BF171B00BCEA68 /* RingBufferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingBufferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0D173821BF171B00BCEA68 /* RingBufferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingBufferTests.swift; sourceTree = "<group>"; };
+		AC0D173A21BF171B00BCEA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0D174321BF175000BCEA68 /* RingBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingBuffer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0D172121BF171900BCEA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0D173121BF171B00BCEA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0D171B21BF171900BCEA68 = {
+			isa = PBXGroup;
+			children = (
+				AC0D172621BF171900BCEA68 /* RingBuffer */,
+				AC0D173721BF171B00BCEA68 /* RingBufferTests */,
+				AC0D172521BF171900BCEA68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0D172521BF171900BCEA68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D172421BF171900BCEA68 /* RingBuffer.app */,
+				AC0D173421BF171B00BCEA68 /* RingBufferTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0D172621BF171900BCEA68 /* RingBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D172721BF171900BCEA68 /* AppDelegate.swift */,
+				AC0D172921BF171B00BCEA68 /* Assets.xcassets */,
+				AC0D172B21BF171B00BCEA68 /* MainMenu.xib */,
+				AC0D172E21BF171B00BCEA68 /* Info.plist */,
+				AC0D172F21BF171B00BCEA68 /* RingBuffer.entitlements */,
+				AC0D174321BF175000BCEA68 /* RingBuffer.swift */,
+			);
+			path = RingBuffer;
+			sourceTree = "<group>";
+		};
+		AC0D173721BF171B00BCEA68 /* RingBufferTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D173821BF171B00BCEA68 /* RingBufferTests.swift */,
+				AC0D173A21BF171B00BCEA68 /* Info.plist */,
+			);
+			path = RingBufferTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0D172321BF171900BCEA68 /* RingBuffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0D173D21BF171B00BCEA68 /* Build configuration list for PBXNativeTarget "RingBuffer" */;
+			buildPhases = (
+				AC0D172021BF171900BCEA68 /* Sources */,
+				AC0D172121BF171900BCEA68 /* Frameworks */,
+				AC0D172221BF171900BCEA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RingBuffer;
+			productName = RingBuffer;
+			productReference = AC0D172421BF171900BCEA68 /* RingBuffer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC0D173321BF171B00BCEA68 /* RingBufferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0D174021BF171B00BCEA68 /* Build configuration list for PBXNativeTarget "RingBufferTests" */;
+			buildPhases = (
+				AC0D173021BF171B00BCEA68 /* Sources */,
+				AC0D173121BF171B00BCEA68 /* Frameworks */,
+				AC0D173221BF171B00BCEA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0D173621BF171B00BCEA68 /* PBXTargetDependency */,
+			);
+			name = RingBufferTests;
+			productName = RingBufferTests;
+			productReference = AC0D173421BF171B00BCEA68 /* RingBufferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0D171C21BF171900BCEA68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					AC0D172321BF171900BCEA68 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AC0D173321BF171B00BCEA68 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AC0D172321BF171900BCEA68;
+					};
+				};
+			};
+			buildConfigurationList = AC0D171F21BF171900BCEA68 /* Build configuration list for PBXProject "RingBuffer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0D171B21BF171900BCEA68;
+			productRefGroup = AC0D172521BF171900BCEA68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0D172321BF171900BCEA68 /* RingBuffer */,
+				AC0D173321BF171B00BCEA68 /* RingBufferTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0D172221BF171900BCEA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0D172A21BF171B00BCEA68 /* Assets.xcassets in Resources */,
+				AC0D172D21BF171B00BCEA68 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0D173221BF171B00BCEA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0D172021BF171900BCEA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0D172821BF171900BCEA68 /* AppDelegate.swift in Sources */,
+				AC0D174421BF175000BCEA68 /* RingBuffer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0D173021BF171B00BCEA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0D173921BF171B00BCEA68 /* RingBufferTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0D173621BF171B00BCEA68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0D172321BF171900BCEA68 /* RingBuffer */;
+			targetProxy = AC0D173521BF171B00BCEA68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC0D172B21BF171B00BCEA68 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0D172C21BF171B00BCEA68 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC0D173B21BF171B00BCEA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC0D173C21BF171B00BCEA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC0D173E21BF171B00BCEA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RingBuffer/RingBuffer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RingBuffer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.RingBuffer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		AC0D173F21BF171B00BCEA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RingBuffer/RingBuffer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RingBuffer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.RingBuffer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		AC0D174121BF171B00BCEA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RingBufferTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.RingBufferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingBuffer.app/Contents/MacOS/RingBuffer";
+			};
+			name = Debug;
+		};
+		AC0D174221BF171B00BCEA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RingBufferTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.RingBufferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingBuffer.app/Contents/MacOS/RingBuffer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0D171F21BF171900BCEA68 /* Build configuration list for PBXProject "RingBuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0D173B21BF171B00BCEA68 /* Debug */,
+				AC0D173C21BF171B00BCEA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0D173D21BF171B00BCEA68 /* Build configuration list for PBXNativeTarget "RingBuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0D173E21BF171B00BCEA68 /* Debug */,
+				AC0D173F21BF171B00BCEA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0D174021BF171B00BCEA68 /* Build configuration list for PBXNativeTarget "RingBufferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0D174121BF171B00BCEA68 /* Debug */,
+				AC0D174221BF171B00BCEA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0D171C21BF171900BCEA68 /* Project object */;
+}
