@@ -199,6 +199,6 @@ harvesine distanse<br /><br />
 10.12.2018 <br />
 Ring buffer<br /><br />
 11.12.2018 <br />
-Rootish Array Stack<br /><br /
+Rootish Array Stack<br /><br />
 
 
