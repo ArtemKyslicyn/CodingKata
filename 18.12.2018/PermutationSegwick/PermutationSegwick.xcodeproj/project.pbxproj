@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC91EB5D21C8AAB2000CBA9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC91EB5C21C8AAB2000CBA9E /* AppDelegate.swift */; };
+		AC91EB5F21C8AAB4000CBA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC91EB5E21C8AAB4000CBA9E /* Assets.xcassets */; };
+		AC91EB6221C8AAB4000CBA9E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC91EB6021C8AAB4000CBA9E /* MainMenu.xib */; };
+		AC91EB6E21C8AAB4000CBA9E /* PermutationSegwickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC91EB6D21C8AAB4000CBA9E /* PermutationSegwickTests.swift */; };
+		AC91EB7921C8AAEA000CBA9E /* PermutationSegwick.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC91EB7821C8AAEA000CBA9E /* PermutationSegwick.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC91EB6A21C8AAB4000CBA9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC91EB5121C8AAB1000CBA9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC91EB5821C8AAB2000CBA9E;
+			remoteInfo = PermutationSegwick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC91EB5921C8AAB2000CBA9E /* PermutationSegwick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PermutationSegwick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC91EB5C21C8AAB2000CBA9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC91EB5E21C8AAB4000CBA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC91EB6121C8AAB4000CBA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC91EB6321C8AAB4000CBA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC91EB6421C8AAB4000CBA9E /* PermutationSegwick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PermutationSegwick.entitlements; sourceTree = "<group>"; };
+		AC91EB6921C8AAB4000CBA9E /* PermutationSegwickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PermutationSegwickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC91EB6D21C8AAB4000CBA9E /* PermutationSegwickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationSegwickTests.swift; sourceTree = "<group>"; };
+		AC91EB6F21C8AAB4000CBA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC91EB7821C8AAEA000CBA9E /* PermutationSegwick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationSegwick.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC91EB5621C8AAB2000CBA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC91EB6621C8AAB4000CBA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC91EB5021C8AAB1000CBA9E = {
+			isa = PBXGroup;
+			children = (
+				AC91EB5B21C8AAB2000CBA9E /* PermutationSegwick */,
+				AC91EB6C21C8AAB4000CBA9E /* PermutationSegwickTests */,
+				AC91EB5A21C8AAB2000CBA9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC91EB5A21C8AAB2000CBA9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC91EB5921C8AAB2000CBA9E /* PermutationSegwick.app */,
+				AC91EB6921C8AAB4000CBA9E /* PermutationSegwickTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC91EB5B21C8AAB2000CBA9E /* PermutationSegwick */ = {
+			isa = PBXGroup;
+			children = (
+				AC91EB5C21C8AAB2000CBA9E /* AppDelegate.swift */,
+				AC91EB5E21C8AAB4000CBA9E /* Assets.xcassets */,
+				AC91EB6021C8AAB4000CBA9E /* MainMenu.xib */,
+				AC91EB6321C8AAB4000CBA9E /* Info.plist */,
+				AC91EB6421C8AAB4000CBA9E /* PermutationSegwick.entitlements */,
+				AC91EB7821C8AAEA000CBA9E /* PermutationSegwick.swift */,
+			);
+			path = PermutationSegwick;
+			sourceTree = "<group>";
+		};
+		AC91EB6C21C8AAB4000CBA9E /* PermutationSegwickTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC91EB6D21C8AAB4000CBA9E /* PermutationSegwickTests.swift */,
+				AC91EB6F21C8AAB4000CBA9E /* Info.plist */,
+			);
+			path = PermutationSegwickTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC91EB5821C8AAB2000CBA9E /* PermutationSegwick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC91EB7221C8AAB4000CBA9E /* Build configuration list for PBXNativeTarget "PermutationSegwick" */;
+			buildPhases = (
+				AC91EB5521C8AAB2000CBA9E /* Sources */,
+				AC91EB5621C8AAB2000CBA9E /* Frameworks */,
+				AC91EB5721C8AAB2000CBA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PermutationSegwick;
+			productName = PermutationSegwick;
+			productReference = AC91EB5921C8AAB2000CBA9E /* PermutationSegwick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC91EB6821C8AAB4000CBA9E /* PermutationSegwickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC91EB7521C8AAB4000CBA9E /* Build configuration list for PBXNativeTarget "PermutationSegwickTests" */;
+			buildPhases = (
+				AC91EB6521C8AAB4000CBA9E /* Sources */,
+				AC91EB6621C8AAB4000CBA9E /* Frameworks */,
+				AC91EB6721C8AAB4000CBA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC91EB6B21C8AAB4000CBA9E /* PBXTargetDependency */,
+			);
+			name = PermutationSegwickTests;
+			productName = PermutationSegwickTests;
+			productReference = AC91EB6921C8AAB4000CBA9E /* PermutationSegwickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC91EB5121C8AAB1000CBA9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					AC91EB5821C8AAB2000CBA9E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AC91EB6821C8AAB4000CBA9E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AC91EB5821C8AAB2000CBA9E;
+					};
+				};
+			};
+			buildConfigurationList = AC91EB5421C8AAB1000CBA9E /* Build configuration list for PBXProject "PermutationSegwick" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC91EB5021C8AAB1000CBA9E;
+			productRefGroup = AC91EB5A21C8AAB2000CBA9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC91EB5821C8AAB2000CBA9E /* PermutationSegwick */,
+				AC91EB6821C8AAB4000CBA9E /* PermutationSegwickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC91EB5721C8AAB2000CBA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC91EB5F21C8AAB4000CBA9E /* Assets.xcassets in Resources */,
+				AC91EB6221C8AAB4000CBA9E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC91EB6721C8AAB4000CBA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC91EB5521C8AAB2000CBA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC91EB7921C8AAEA000CBA9E /* PermutationSegwick.swift in Sources */,
+				AC91EB5D21C8AAB2000CBA9E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC91EB6521C8AAB4000CBA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC91EB6E21C8AAB4000CBA9E /* PermutationSegwickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC91EB6B21C8AAB4000CBA9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC91EB5821C8AAB2000CBA9E /* PermutationSegwick */;
+			targetProxy = AC91EB6A21C8AAB4000CBA9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC91EB6021C8AAB4000CBA9E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC91EB6121C8AAB4000CBA9E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC91EB7021C8AAB4000CBA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC91EB7121C8AAB4000CBA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC91EB7321C8AAB4000CBA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PermutationSegwick/PermutationSegwick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PermutationSegwick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.PermutationSegwick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		AC91EB7421C8AAB4000CBA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PermutationSegwick/PermutationSegwick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PermutationSegwick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.PermutationSegwick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		AC91EB7621C8AAB4000CBA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PermutationSegwickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.PermutationSegwickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PermutationSegwick.app/Contents/MacOS/PermutationSegwick";
+			};
+			name = Debug;
+		};
+		AC91EB7721C8AAB4000CBA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PermutationSegwickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.PermutationSegwickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PermutationSegwick.app/Contents/MacOS/PermutationSegwick";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC91EB5421C8AAB1000CBA9E /* Build configuration list for PBXProject "PermutationSegwick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC91EB7021C8AAB4000CBA9E /* Debug */,
+				AC91EB7121C8AAB4000CBA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC91EB7221C8AAB4000CBA9E /* Build configuration list for PBXNativeTarget "PermutationSegwick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC91EB7321C8AAB4000CBA9E /* Debug */,
+				AC91EB7421C8AAB4000CBA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC91EB7521C8AAB4000CBA9E /* Build configuration list for PBXNativeTarget "PermutationSegwickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC91EB7621C8AAB4000CBA9E /* Debug */,
+				AC91EB7721C8AAB4000CBA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC91EB5121C8AAB1000CBA9E /* Project object */;
+}
