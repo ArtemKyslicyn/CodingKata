@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PalindromMul/PalindromMul.swift"
+            timestampString = "571507946.538626"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "maxPalindromMul(from:to:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PalindromMul/PalindromMul.swift"
+            timestampString = "571507946.538715"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "maxPalindromMul(from:to:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PalindromMulTests/PalindromMulTests.swift"
+            timestampString = "571507946.5387861"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "PalindromMulTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalindromMulTests.PalindromMulTests.__allocating_init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; PalindromMulTests.PalindromMulTests"
+                  moduleName = "PalindromMulTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arcilite/Documents/CodingKata/10.02.2018/PalindromMul/PalindromMulTests/PalindromMulTests.swift"
+                  timestampString = "571507948.268145"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalindromMulTests.PalindromMulTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; PalindromMulTests.PalindromMulTests"
+                  moduleName = "PalindromMulTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arcilite/Documents/CodingKata/10.02.2018/PalindromMul/PalindromMulTests/PalindromMulTests.swift"
+                  timestampString = "571507948.271655"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalindromMulTests.PalindromMulTests.__allocating_init(selector: ObjectiveC.Selector) -&gt; PalindromMulTests.PalindromMulTests"
+                  moduleName = "PalindromMulTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arcilite/Documents/CodingKata/10.02.2018/PalindromMul/PalindromMulTests/PalindromMulTests.swift"
+                  timestampString = "571507948.27472"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalindromMulTests.PalindromMulTests.init(selector: ObjectiveC.Selector) -&gt; PalindromMulTests.PalindromMulTests"
+                  moduleName = "PalindromMulTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arcilite/Documents/CodingKata/10.02.2018/PalindromMul/PalindromMulTests/PalindromMulTests.swift"
+                  timestampString = "571507948.277827"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalindromMulTests.PalindromMulTests.__allocating_init() -&gt; PalindromMulTests.PalindromMulTests"
+                  moduleName = "PalindromMulTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arcilite/Documents/CodingKata/10.02.2018/PalindromMul/PalindromMulTests/PalindromMulTests.swift"
+                  timestampString = "571507948.281165"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalindromMulTests.PalindromMulTests.init() -&gt; PalindromMulTests.PalindromMulTests"
+                  moduleName = "PalindromMulTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arcilite/Documents/CodingKata/10.02.2018/PalindromMul/PalindromMulTests/PalindromMulTests.swift"
+                  timestampString = "571507948.285841"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PalindromMulTests.PalindromMulTests.__deallocating_deinit"
+                  moduleName = "PalindromMulTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arcilite/Documents/CodingKata/10.02.2018/PalindromMul/PalindromMulTests/PalindromMulTests.swift"
+                  timestampString = "571507948.288725"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
