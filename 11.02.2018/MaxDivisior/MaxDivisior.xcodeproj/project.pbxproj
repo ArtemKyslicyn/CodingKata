@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC5A59C5221126CB00F76734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A59C4221126CB00F76734 /* AppDelegate.swift */; };
+		AC5A59C7221126CD00F76734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5A59C6221126CD00F76734 /* Assets.xcassets */; };
+		AC5A59CA221126CD00F76734 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5A59C8221126CD00F76734 /* MainMenu.xib */; };
+		AC5A59D6221126CD00F76734 /* MaxDivisiorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A59D5221126CD00F76734 /* MaxDivisiorTests.swift */; };
+		AC5A59E1221126E900F76734 /* MaxDivisior.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A59E0221126E900F76734 /* MaxDivisior.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC5A59D2221126CD00F76734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC5A59B9221126CB00F76734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC5A59C0221126CB00F76734;
+			remoteInfo = MaxDivisior;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC5A59C1221126CB00F76734 /* MaxDivisior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxDivisior.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5A59C4221126CB00F76734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC5A59C6221126CD00F76734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC5A59C9221126CD00F76734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC5A59CB221126CD00F76734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5A59CC221126CD00F76734 /* MaxDivisior.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MaxDivisior.entitlements; sourceTree = "<group>"; };
+		AC5A59D1221126CD00F76734 /* MaxDivisiorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxDivisiorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5A59D5221126CD00F76734 /* MaxDivisiorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDivisiorTests.swift; sourceTree = "<group>"; };
+		AC5A59D7221126CD00F76734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5A59E0221126E900F76734 /* MaxDivisior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDivisior.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC5A59BE221126CB00F76734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5A59CE221126CD00F76734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC5A59B8221126CB00F76734 = {
+			isa = PBXGroup;
+			children = (
+				AC5A59C3221126CB00F76734 /* MaxDivisior */,
+				AC5A59D4221126CD00F76734 /* MaxDivisiorTests */,
+				AC5A59C2221126CB00F76734 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC5A59C2221126CB00F76734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC5A59C1221126CB00F76734 /* MaxDivisior.app */,
+				AC5A59D1221126CD00F76734 /* MaxDivisiorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC5A59C3221126CB00F76734 /* MaxDivisior */ = {
+			isa = PBXGroup;
+			children = (
+				AC5A59C4221126CB00F76734 /* AppDelegate.swift */,
+				AC5A59C6221126CD00F76734 /* Assets.xcassets */,
+				AC5A59C8221126CD00F76734 /* MainMenu.xib */,
+				AC5A59CB221126CD00F76734 /* Info.plist */,
+				AC5A59CC221126CD00F76734 /* MaxDivisior.entitlements */,
+				AC5A59E0221126E900F76734 /* MaxDivisior.swift */,
+			);
+			path = MaxDivisior;
+			sourceTree = "<group>";
+		};
+		AC5A59D4221126CD00F76734 /* MaxDivisiorTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC5A59D5221126CD00F76734 /* MaxDivisiorTests.swift */,
+				AC5A59D7221126CD00F76734 /* Info.plist */,
+			);
+			path = MaxDivisiorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC5A59C0221126CB00F76734 /* MaxDivisior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5A59DA221126CD00F76734 /* Build configuration list for PBXNativeTarget "MaxDivisior" */;
+			buildPhases = (
+				AC5A59BD221126CB00F76734 /* Sources */,
+				AC5A59BE221126CB00F76734 /* Frameworks */,
+				AC5A59BF221126CB00F76734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaxDivisior;
+			productName = MaxDivisior;
+			productReference = AC5A59C1221126CB00F76734 /* MaxDivisior.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC5A59D0221126CD00F76734 /* MaxDivisiorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5A59DD221126CD00F76734 /* Build configuration list for PBXNativeTarget "MaxDivisiorTests" */;
+			buildPhases = (
+				AC5A59CD221126CD00F76734 /* Sources */,
+				AC5A59CE221126CD00F76734 /* Frameworks */,
+				AC5A59CF221126CD00F76734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC5A59D3221126CD00F76734 /* PBXTargetDependency */,
+			);
+			name = MaxDivisiorTests;
+			productName = MaxDivisiorTests;
+			productReference = AC5A59D1221126CD00F76734 /* MaxDivisiorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC5A59B9221126CB00F76734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					AC5A59C0221126CB00F76734 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AC5A59D0221126CD00F76734 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AC5A59C0221126CB00F76734;
+					};
+				};
+			};
+			buildConfigurationList = AC5A59BC221126CB00F76734 /* Build configuration list for PBXProject "MaxDivisior" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC5A59B8221126CB00F76734;
+			productRefGroup = AC5A59C2221126CB00F76734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC5A59C0221126CB00F76734 /* MaxDivisior */,
+				AC5A59D0221126CD00F76734 /* MaxDivisiorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC5A59BF221126CB00F76734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5A59C7221126CD00F76734 /* Assets.xcassets in Resources */,
+				AC5A59CA221126CD00F76734 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5A59CF221126CD00F76734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC5A59BD221126CB00F76734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5A59C5221126CB00F76734 /* AppDelegate.swift in Sources */,
+				AC5A59E1221126E900F76734 /* MaxDivisior.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5A59CD221126CD00F76734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5A59D6221126CD00F76734 /* MaxDivisiorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC5A59D3221126CD00F76734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC5A59C0221126CB00F76734 /* MaxDivisior */;
+			targetProxy = AC5A59D2221126CD00F76734 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC5A59C8221126CD00F76734 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC5A59C9221126CD00F76734 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC5A59D8221126CD00F76734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC5A59D9221126CD00F76734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC5A59DB221126CD00F76734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MaxDivisior/MaxDivisior.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MaxDivisior/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.MaxDivisior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		AC5A59DC221126CD00F76734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MaxDivisior/MaxDivisior.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MaxDivisior/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.MaxDivisior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		AC5A59DE221126CD00F76734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MaxDivisiorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.MaxDivisiorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxDivisior.app/Contents/MacOS/MaxDivisior";
+			};
+			name = Debug;
+		};
+		AC5A59DF221126CD00F76734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MaxDivisiorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.MaxDivisiorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxDivisior.app/Contents/MacOS/MaxDivisior";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC5A59BC221126CB00F76734 /* Build configuration list for PBXProject "MaxDivisior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5A59D8221126CD00F76734 /* Debug */,
+				AC5A59D9221126CD00F76734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5A59DA221126CD00F76734 /* Build configuration list for PBXNativeTarget "MaxDivisior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5A59DB221126CD00F76734 /* Debug */,
+				AC5A59DC221126CD00F76734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5A59DD221126CD00F76734 /* Build configuration list for PBXNativeTarget "MaxDivisiorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5A59DE221126CD00F76734 /* Debug */,
+				AC5A59DF221126CD00F76734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC5A59B9221126CB00F76734 /* Project object */;
+}
