@@ -1,15 +1,15 @@
 //
-//  QuequeOnStacksTests.swift
-//  QuequeOnStacksTests
+//  QueueOnArrayTests.swift
+//  QueueOnArrayTests
 //
-//  Created by Artem Kislitsyn on 13.02.2019.
+//  Created by Artem Kislitsyn on 14.02.2019.
 //  Copyright © 2019 3. All rights reserved.
 //
 
 import XCTest
-@testable import QuequeOnStacks
+@testable import QueueOnArray
 
-class QuequeOnStacksTests: XCTestCase {
+class QueueOnArrayTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -18,36 +18,21 @@ class QuequeOnStacksTests: XCTestCase {
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+
 	func testQueue() {
 		//arrange
-		let stack = Queue<Int>()
-		stack.enque(1)
-		stack.enque(2)
-		stack.enque(3)
+		let queue = Queue<Int>()
+		queue.enque(1)
+		queue.enque(2)
+		queue.enque(3)
 		
 		//act
-		let result = stack.deque()
+		let result = queue.deque()
 		
-		//assert
 		//assert
 		XCTAssertEqual(result, 1, "not equal")
 		
 	}
-	
-    func testStak() {
-	
-		//arrange
-		let stack = Stack<Int>()
-		stack.push(1)
-		stack.push(2)
-		
-		//act
-		let result = stack.pop()
-		
-		//assert
-		XCTAssertEqual(result, 2, "not equal")
-    }
-
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
