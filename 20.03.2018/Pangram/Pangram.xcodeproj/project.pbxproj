@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC68DC672241F55200FE90C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68DC662241F55200FE90C5 /* AppDelegate.swift */; };
+		AC68DC692241F55500FE90C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC68DC682241F55500FE90C5 /* Assets.xcassets */; };
+		AC68DC6C2241F55500FE90C5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC68DC6A2241F55500FE90C5 /* MainMenu.xib */; };
+		AC68DC782241F55500FE90C5 /* PangramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68DC772241F55500FE90C5 /* PangramTests.swift */; };
+		AC68DC832241F5A000FE90C5 /* Pangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68DC822241F5A000FE90C5 /* Pangram.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC68DC742241F55500FE90C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC68DC5B2241F55200FE90C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC68DC622241F55200FE90C5;
+			remoteInfo = Pangram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC68DC632241F55200FE90C5 /* Pangram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pangram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC68DC662241F55200FE90C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC68DC682241F55500FE90C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC68DC6B2241F55500FE90C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC68DC6D2241F55500FE90C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC68DC6E2241F55500FE90C5 /* Pangram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pangram.entitlements; sourceTree = "<group>"; };
+		AC68DC732241F55500FE90C5 /* PangramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PangramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC68DC772241F55500FE90C5 /* PangramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PangramTests.swift; sourceTree = "<group>"; };
+		AC68DC792241F55500FE90C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC68DC822241F5A000FE90C5 /* Pangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pangram.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC68DC602241F55200FE90C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC68DC702241F55500FE90C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC68DC5A2241F55200FE90C5 = {
+			isa = PBXGroup;
+			children = (
+				AC68DC652241F55200FE90C5 /* Pangram */,
+				AC68DC762241F55500FE90C5 /* PangramTests */,
+				AC68DC642241F55200FE90C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC68DC642241F55200FE90C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC68DC632241F55200FE90C5 /* Pangram.app */,
+				AC68DC732241F55500FE90C5 /* PangramTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC68DC652241F55200FE90C5 /* Pangram */ = {
+			isa = PBXGroup;
+			children = (
+				AC68DC662241F55200FE90C5 /* AppDelegate.swift */,
+				AC68DC682241F55500FE90C5 /* Assets.xcassets */,
+				AC68DC6A2241F55500FE90C5 /* MainMenu.xib */,
+				AC68DC6D2241F55500FE90C5 /* Info.plist */,
+				AC68DC6E2241F55500FE90C5 /* Pangram.entitlements */,
+				AC68DC822241F5A000FE90C5 /* Pangram.swift */,
+			);
+			path = Pangram;
+			sourceTree = "<group>";
+		};
+		AC68DC762241F55500FE90C5 /* PangramTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC68DC772241F55500FE90C5 /* PangramTests.swift */,
+				AC68DC792241F55500FE90C5 /* Info.plist */,
+			);
+			path = PangramTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC68DC622241F55200FE90C5 /* Pangram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC68DC7C2241F55500FE90C5 /* Build configuration list for PBXNativeTarget "Pangram" */;
+			buildPhases = (
+				AC68DC5F2241F55200FE90C5 /* Sources */,
+				AC68DC602241F55200FE90C5 /* Frameworks */,
+				AC68DC612241F55200FE90C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pangram;
+			productName = Pangram;
+			productReference = AC68DC632241F55200FE90C5 /* Pangram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC68DC722241F55500FE90C5 /* PangramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC68DC7F2241F55500FE90C5 /* Build configuration list for PBXNativeTarget "PangramTests" */;
+			buildPhases = (
+				AC68DC6F2241F55500FE90C5 /* Sources */,
+				AC68DC702241F55500FE90C5 /* Frameworks */,
+				AC68DC712241F55500FE90C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC68DC752241F55500FE90C5 /* PBXTargetDependency */,
+			);
+			name = PangramTests;
+			productName = PangramTests;
+			productReference = AC68DC732241F55500FE90C5 /* PangramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC68DC5B2241F55200FE90C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					AC68DC622241F55200FE90C5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AC68DC722241F55500FE90C5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AC68DC622241F55200FE90C5;
+					};
+				};
+			};
+			buildConfigurationList = AC68DC5E2241F55200FE90C5 /* Build configuration list for PBXProject "Pangram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC68DC5A2241F55200FE90C5;
+			productRefGroup = AC68DC642241F55200FE90C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC68DC622241F55200FE90C5 /* Pangram */,
+				AC68DC722241F55500FE90C5 /* PangramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC68DC612241F55200FE90C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC68DC692241F55500FE90C5 /* Assets.xcassets in Resources */,
+				AC68DC6C2241F55500FE90C5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC68DC712241F55500FE90C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC68DC5F2241F55200FE90C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC68DC832241F5A000FE90C5 /* Pangram.swift in Sources */,
+				AC68DC672241F55200FE90C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC68DC6F2241F55500FE90C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC68DC782241F55500FE90C5 /* PangramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC68DC752241F55500FE90C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC68DC622241F55200FE90C5 /* Pangram */;
+			targetProxy = AC68DC742241F55500FE90C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC68DC6A2241F55500FE90C5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC68DC6B2241F55500FE90C5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC68DC7A2241F55500FE90C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC68DC7B2241F55500FE90C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC68DC7D2241F55500FE90C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Pangram/Pangram.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Pangram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.Pangram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		AC68DC7E2241F55500FE90C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Pangram/Pangram.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Pangram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.Pangram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		AC68DC802241F55500FE90C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PangramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.PangramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pangram.app/Contents/MacOS/Pangram";
+			};
+			name = Debug;
+		};
+		AC68DC812241F55500FE90C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PangramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.PangramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pangram.app/Contents/MacOS/Pangram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC68DC5E2241F55200FE90C5 /* Build configuration list for PBXProject "Pangram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC68DC7A2241F55500FE90C5 /* Debug */,
+				AC68DC7B2241F55500FE90C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC68DC7C2241F55500FE90C5 /* Build configuration list for PBXNativeTarget "Pangram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC68DC7D2241F55500FE90C5 /* Debug */,
+				AC68DC7E2241F55500FE90C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC68DC7F2241F55500FE90C5 /* Build configuration list for PBXNativeTarget "PangramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC68DC802241F55500FE90C5 /* Debug */,
+				AC68DC812241F55500FE90C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC68DC5B2241F55200FE90C5 /* Project object */;
+}
