@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACD3D72D224582D000893EED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3D72C224582D000893EED /* AppDelegate.swift */; };
+		ACD3D72F224582D200893EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD3D72E224582D200893EED /* Assets.xcassets */; };
+		ACD3D732224582D200893EED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACD3D730224582D200893EED /* MainMenu.xib */; };
+		ACD3D73E224582D300893EED /* HighOrderFunctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3D73D224582D300893EED /* HighOrderFunctionTests.swift */; };
+		ACD3D749224582ED00893EED /* HighOrderFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3D748224582ED00893EED /* HighOrderFunction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACD3D73A224582D200893EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD3D721224582CF00893EED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD3D728224582CF00893EED;
+			remoteInfo = HighOrderFunction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACD3D729224582D000893EED /* HighOrderFunction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighOrderFunction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD3D72C224582D000893EED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACD3D72E224582D200893EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACD3D731224582D200893EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ACD3D733224582D200893EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD3D734224582D200893EED /* HighOrderFunction.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HighOrderFunction.entitlements; sourceTree = "<group>"; };
+		ACD3D739224582D200893EED /* HighOrderFunctionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighOrderFunctionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD3D73D224582D300893EED /* HighOrderFunctionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighOrderFunctionTests.swift; sourceTree = "<group>"; };
+		ACD3D73F224582D300893EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD3D748224582ED00893EED /* HighOrderFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighOrderFunction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACD3D726224582CF00893EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD3D736224582D200893EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACD3D720224582CF00893EED = {
+			isa = PBXGroup;
+			children = (
+				ACD3D72B224582D000893EED /* HighOrderFunction */,
+				ACD3D73C224582D300893EED /* HighOrderFunctionTests */,
+				ACD3D72A224582D000893EED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACD3D72A224582D000893EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3D729224582D000893EED /* HighOrderFunction.app */,
+				ACD3D739224582D200893EED /* HighOrderFunctionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD3D72B224582D000893EED /* HighOrderFunction */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3D748224582ED00893EED /* HighOrderFunction.swift */,
+				ACD3D72C224582D000893EED /* AppDelegate.swift */,
+				ACD3D72E224582D200893EED /* Assets.xcassets */,
+				ACD3D730224582D200893EED /* MainMenu.xib */,
+				ACD3D733224582D200893EED /* Info.plist */,
+				ACD3D734224582D200893EED /* HighOrderFunction.entitlements */,
+			);
+			path = HighOrderFunction;
+			sourceTree = "<group>";
+		};
+		ACD3D73C224582D300893EED /* HighOrderFunctionTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3D73D224582D300893EED /* HighOrderFunctionTests.swift */,
+				ACD3D73F224582D300893EED /* Info.plist */,
+			);
+			path = HighOrderFunctionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACD3D728224582CF00893EED /* HighOrderFunction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD3D742224582D300893EED /* Build configuration list for PBXNativeTarget "HighOrderFunction" */;
+			buildPhases = (
+				ACD3D725224582CF00893EED /* Sources */,
+				ACD3D726224582CF00893EED /* Frameworks */,
+				ACD3D727224582CF00893EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HighOrderFunction;
+			productName = HighOrderFunction;
+			productReference = ACD3D729224582D000893EED /* HighOrderFunction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACD3D738224582D200893EED /* HighOrderFunctionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD3D745224582D300893EED /* Build configuration list for PBXNativeTarget "HighOrderFunctionTests" */;
+			buildPhases = (
+				ACD3D735224582D200893EED /* Sources */,
+				ACD3D736224582D200893EED /* Frameworks */,
+				ACD3D737224582D200893EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD3D73B224582D200893EED /* PBXTargetDependency */,
+			);
+			name = HighOrderFunctionTests;
+			productName = HighOrderFunctionTests;
+			productReference = ACD3D739224582D200893EED /* HighOrderFunctionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACD3D721224582CF00893EED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = 3;
+				TargetAttributes = {
+					ACD3D728224582CF00893EED = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ACD3D738224582D200893EED = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ACD3D728224582CF00893EED;
+					};
+				};
+			};
+			buildConfigurationList = ACD3D724224582CF00893EED /* Build configuration list for PBXProject "HighOrderFunction" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACD3D720224582CF00893EED;
+			productRefGroup = ACD3D72A224582D000893EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD3D728224582CF00893EED /* HighOrderFunction */,
+				ACD3D738224582D200893EED /* HighOrderFunctionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACD3D727224582CF00893EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD3D72F224582D200893EED /* Assets.xcassets in Resources */,
+				ACD3D732224582D200893EED /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD3D737224582D200893EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACD3D725224582CF00893EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD3D749224582ED00893EED /* HighOrderFunction.swift in Sources */,
+				ACD3D72D224582D000893EED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD3D735224582D200893EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD3D73E224582D300893EED /* HighOrderFunctionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACD3D73B224582D200893EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD3D728224582CF00893EED /* HighOrderFunction */;
+			targetProxy = ACD3D73A224582D200893EED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACD3D730224582D200893EED /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD3D731224582D200893EED /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACD3D740224582D300893EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACD3D741224582D300893EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ACD3D743224582D300893EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HighOrderFunction/HighOrderFunction.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HighOrderFunction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.HighOrderFunction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		ACD3D744224582D300893EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HighOrderFunction/HighOrderFunction.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HighOrderFunction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.HighOrderFunction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		ACD3D746224582D300893EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HighOrderFunctionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.HighOrderFunctionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighOrderFunction.app/Contents/MacOS/HighOrderFunction";
+			};
+			name = Debug;
+		};
+		ACD3D747224582D300893EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HighOrderFunctionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ipa.mobile.HighOrderFunctionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighOrderFunction.app/Contents/MacOS/HighOrderFunction";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACD3D724224582CF00893EED /* Build configuration list for PBXProject "HighOrderFunction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD3D740224582D300893EED /* Debug */,
+				ACD3D741224582D300893EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD3D742224582D300893EED /* Build configuration list for PBXNativeTarget "HighOrderFunction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD3D743224582D300893EED /* Debug */,
+				ACD3D744224582D300893EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD3D745224582D300893EED /* Build configuration list for PBXNativeTarget "HighOrderFunctionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD3D746224582D300893EED /* Debug */,
+				ACD3D747224582D300893EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACD3D721224582CF00893EED /* Project object */;
+}
